@@ -1,0 +1,18 @@
+site_name: Moje projekty
+site_author: Rafał Okroj
+site_description: >
+  Portfolio moich wspaniałych projektów z Data Science i AI!
+
+theme:
+  name: material
+  palette:
+    primary: indigo
+
+nav:
+  - Strona Domowa: index.md
+  - Obecny projekt:
+      - "Generator kolorowanek": Generator_kolorowanek/index.md
+  - Poprzednie projekty:
+      - "Iris": Irysy/index.md
+      - "Titanic": Titanic/index.md
+      - "Ceny mieszkań": Ceny_mieszkan/index.md
