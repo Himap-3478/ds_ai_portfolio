@@ -3,6 +3,9 @@ site_author: Rafał Okroj
 site_description: >
   Portfolio moich wspaniałych projektów z Data Science i AI!
 
+repo_name: Himap-3478/ds_ai_portfolio
+repo_url: https://github.com/Himap-3478/ds_ai_portfolio
+
 theme:
   name: material
   palette:
@@ -11,7 +14,7 @@ theme:
 nav:
   - Strona Domowa: index.md
   - Obecny projekt:
-      - "Generator kolorowanek": Generator_kolorowanek/index.md
+      - "Matejko": Generator_kolorowanek/index.md
   - Poprzednie projekty:
       - "Iris": Irysy/index.md
       - "Titanic": Titanic/index.md
