@@ -1,5 +1,5 @@
 
-# Fascynująca Analiza Danych EDA Titanica: Eksploracja Domenowa
+# Analiza Danych EDA Titanica: Eksploracja Domenowa
 
 utworzone: **28.01.2025**
 
