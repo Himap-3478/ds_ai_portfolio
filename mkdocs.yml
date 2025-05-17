@@ -14,9 +14,8 @@ theme:
 nav:
   - Strona Domowa: index.md
   - Obecny projekt:
-
+      - "Ceny mieszkań": Ceny_mieszkan/index.md
   - Poprzednie projekty:
       - "Iris": Irysy/index.md
       - "Titanic": Titanic/index.md
       - "Matejko": Generator_kolorowanek/index.md
-      - "Ceny mieszkań": Ceny_mieszkan/index.md
