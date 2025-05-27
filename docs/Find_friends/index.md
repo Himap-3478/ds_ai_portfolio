@@ -17,7 +17,7 @@ Dopasowywanie nowych użytkowników: Po wprowadzeniu danych, system przypisuje u
 Wizualizacja i opis klastra: Po klasyfikacji, aplikacja wyświetla nazwę klastra oraz jego charakterystykę.
 
 Technologie:
-Python, scikit-learn, pandas, numpy, Streamlit/Flask (jeśli frontend), matplotlib/seaborn (jeśli wizualizacje), Git.
+Python, scikit-learn, pandas, Git.
 
 Wyróżniki projektu:
 
