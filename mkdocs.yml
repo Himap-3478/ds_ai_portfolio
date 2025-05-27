@@ -13,9 +13,10 @@ theme:
 
 nav:
   - Strona Domowa: index.md
-  - Obecny projekt:
-      - "Ceny mieszkań": Ceny_mieszkan/index.md
-  - Poprzednie projekty:
+  - Projekty:
+      - "Znajdź przyjaciół": Find_friends/index.md
+      - "GPT": GPT/index.md
       - "Iris": Irysy/index.md
       - "Titanic": Titanic/index.md
       - "Matejko": Generator_kolorowanek/index.md
+      - "Ceny mieszkań": Ceny_mieszkan/index.md
