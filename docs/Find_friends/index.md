@@ -10,11 +10,11 @@ Zbieranie danych: Dane wejściowe pochodzą z ankiety zawierającej pytania doty
 
 Przetwarzanie danych: Dane zostały oczyszczone i przekształcone (m.in. standaryzacja, encoding).
 
-Klasteryzacja: Wykorzystałem algorytmy nienadzorowane (np. KMeans/DBSCAN) do podziału użytkowników na grupy o podobnych cechach.
+Klasteryzacja: Wykorzystałem algorytmy do podziału użytkowników na grupy o podobnych cechach.
 
 Dopasowywanie nowych użytkowników: Po wprowadzeniu danych, system przypisuje użytkownika do najbardziej pasującego klastra.
 
-Wizualizacja i opis klastra: Po klasyfikacji, aplikacja wyświetla nazwę klastra oraz jego charakterystykę (np. „Początkujący z dużą motywacją” lub „Analityczny profil z doświadczeniem w IT”).
+Wizualizacja i opis klastra: Po klasyfikacji, aplikacja wyświetla nazwę klastra oraz jego charakterystykę.
 
 Technologie:
 Python, scikit-learn, pandas, numpy, Streamlit/Flask (jeśli frontend), matplotlib/seaborn (jeśli wizualizacje), Git.
