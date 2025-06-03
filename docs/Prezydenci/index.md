@@ -1,21 +1,20 @@
-# Analiza danych wyborów do Senatu III RP
+# Analiza danych wyborów na prezydenta III RP 
 
-utworzone: **22.05.2025**
+utworzone: **02.06.2025**
 
-W ramach własnej analizy danych prześledziłem wyniki polskich wyborów do Senatu na przestrzeni lat, koncentrując się na trzech kluczowych aspektach:
+W ramach własnej analizy danych prześledziłem wyniki wyborów na Prezydenta RP na przestrzeni lat, koncentrując się na trzech kluczowych aspektach:
 
-🔹 Procent głosów oddanych na poszczególne partie polityczne w danym roku
-🔹 Rozkład mandatów w Sejmie i jego zależność od systemu wyborczego
-🔹 Poglądy polityczne partii i jak odpowiadają one preferencjom głosujących
+🔹 Procent głosów oddanych na poszczególnych kandydatów w danym roku w pierwszej i drugiej turze
+🔹 Wykształcenie i poglądy kandydatów 
 
 
 📁 Analiza wykonana z użyciem: Python, pandas, matplotlib, seaborn, numpy, plotly, sklearn.
 
-<a href="Senat.ipynb" class="md-button md-button--primary">Pobierz Notebook</a>
+<a href="Prezydenci.ipynb" class="md-button md-button--primary">Pobierz Notebook</a>
 
 <iframe
     id="content"
-    src="Senat.html"
+    src="Prezydenci.html"
     width="100%"
     style="border:1px solid black;overflow:hidden;"
 ></iframe>

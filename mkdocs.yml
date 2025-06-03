@@ -14,6 +14,8 @@ theme:
 nav:
   - Strona Domowa: index.md
   - Projekty:
+      - "Przewidywacz poparcia w Polsce": Przewidywacz_poglądów/index.md
+      - "Wybory prezydenckie w III RP": Prezydenci/index.md
       - "Wybory do Europarlamentu w Polsce": Europarlament/index.md
       - "Wybory do Senatu w III RP": Senat/index.md
       - "Wybory do Sejmu w III RP": Sejm'index.md

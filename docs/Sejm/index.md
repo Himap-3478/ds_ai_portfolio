@@ -1,4 +1,4 @@
-# Analiza Danych wyborów do Sejmu III RP
+# Analiza danych wyborów do Sejmu III RP
 
 utworzone: **19.05.2025**
 
