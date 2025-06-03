@@ -14,6 +14,10 @@
       
       
       
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../Prezydenci/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -21,7 +25,7 @@
     
     
       
-        <title>Analiza danych wyborów do Sejmu III RP - Moje projekty</title>
+        <title>Przewidywacz poparcia w Polsce - Moje projekty</title>
       
     
     
@@ -71,7 +75,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#analiza-danych-wyborow-do-sejmu-iii-rp" class="md-skip">
+        <a href="#aplikacja-predykcyjna-trendow-politycznych-w-polsce-1990obecnie" class="md-skip">
           Skip to content
         </a>
       
@@ -107,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Analiza danych wyborów do Sejmu III RP
+              Przewidywacz poparcia w Polsce
             
           </span>
         </div>
@@ -246,18 +250,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -273,7 +279,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Projekty
@@ -284,10 +290,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../Przewidywacz_pogl%C4%85d%C3%B3w/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -298,6 +313,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -577,34 +593,28 @@
   
 
 
-<h1 id="analiza-danych-wyborow-do-sejmu-iii-rp">Analiza danych wyborów do Sejmu III RP</h1>
-<p>utworzone: <strong>19.05.2025</strong></p>
-<p>W ramach własnej analizy danych prześledziłem wyniki polskich wyborów do Sejmu na przestrzeni lat, koncentrując się na trzech kluczowych aspektach:</p>
-<p>🔹 Procent głosów oddanych na poszczególne partie polityczne w danym roku
-🔹 Rozkład mandatów w Sejmie i jego zależność od systemu wyborczego
-🔹 Poglądy polityczne partii i jak odpowiadają one preferencjom głosujących</p>
-<p>📁 Analiza wykonana z użyciem: Python, pandas, matplotlib, seaborn, numpy, plotly, sklearn.</p>
-<p><a href="Sejm.ipynb" class="md-button md-button--primary">Pobierz Notebook</a></p>
-<p><iframe
-    id="content"
-    src="Sejm.html"
-    width="100%"
-    style="border:1px solid black;overflow:hidden;"
-></iframe></p>
-<script>
-function resizeIframeToFitContent(iframe) {
-    iframe.style.height = (iframe.contentWindow.document.documentElement.scrollHeight + 50) + "px";
-    iframe.contentDocument.body.style["overflow"] = 'hidden';
-}
-window.addEventListener('load', function() {
-    var iframe = document.getElementById('content');
-    resizeIframeToFitContent(iframe);
-});
-window.addEventListener('resize', function() {
-    var iframe = document.getElementById('content');
-    resizeIframeToFitContent(iframe);
-});
-</script>
+<h1 id="aplikacja-predykcyjna-trendow-politycznych-w-polsce-1990obecnie">Aplikacja predykcyjna trendów politycznych w Polsce (1990–obecnie)</h1>
+<p>Utworzone: <strong>03.06.2025</strong></p>
+<p>Stworzyłem aplikację opartą na danych historycznych z wyborów parlamentarnych, prezydenckich oraz do Parlamentu Europejskiego w Polsce od 1990 roku, która przewiduje poziom poparcia dla różnych poglądów politycznych w zależności od wybranego roku. W projekcie zastosowałem modele uczenia maszynowego oraz analizę szeregów czasowych, by odwzorować i przewidywać zmiany preferencji społecznych na przestrzeni dekad.</p>
+<p><a href="https://github.com/Himap-3478/Przewidywacz-pogl-d-w" target="_blank" style="
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #24292e;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+">
+  <svg height="20" width="20" viewBox="0 0 16 16" fill="white" style="margin-right: 8px;" xmlns="http://www.w3.org/2000/svg">
+    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.54 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.19 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+  </svg>
+  Odwiedź repozytorium GitHub
+</a></p>
+<p>Tutaj screen z projektu:</p>
+<p><img alt="Widok początkowy" src="images/main.png" />
+<img alt="Widok wykresu" src="images/wykres.png" /></p>
 
 
 
