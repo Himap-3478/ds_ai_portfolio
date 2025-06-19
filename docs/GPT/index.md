@@ -1,4 +1,4 @@
-# Przewidywacz cen
+# Nasz GPT
 
 Utworzone: **03.04.2025**
 

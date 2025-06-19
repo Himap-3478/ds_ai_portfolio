@@ -1,4 +1,4 @@
-# Przewidywacz cen
+# Find friends 
 
 Utworzone: **18.04.2025**
 
