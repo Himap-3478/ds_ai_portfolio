@@ -15,7 +15,7 @@ W ramach platformy **Santander Open Academy** ukończyłem kursy doskonalące um
 
 
 Pobierz plik:
-[Funkcja "jeżeli"](doc/Funkcja.xlsx)
-[Funkcja "wyszukaj pionowo"](doc/Funkcja1.xlsx))
-[Power BI](doc/PowerBI.pbix)
-[Tabela przestawna](doc/Tabela.xlsx)
+- [Funkcja "jeżeli"](doc/Funkcja.xlsx)
+- [Funkcja "wyszukaj pionowo"](doc/Funkcja1.xlsx))
+- [Power BI](doc/PowerBI.pbix)
+- [Tabela przestawna](doc/Tabela.xlsx)
