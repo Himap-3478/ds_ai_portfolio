@@ -13,4 +13,4 @@ W ramach tego projektu przeprowadziłem kompleksową analizę wyników wyborów 
 * Porównanie wyników wyborów prezydenckich i parlamentarnych
 
 Pobierz plik:
-[Wybory](wybory.xlsx)
+[Wybory](doc/wybory.xlsx)
