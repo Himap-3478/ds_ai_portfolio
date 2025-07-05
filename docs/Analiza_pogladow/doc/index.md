@@ -1,10 +1,16 @@
-# Analiza wyborów w Polsce po 1990 roku
+# Analiza poglądów w Polsce po 1990 roku
 
 Utworzone: **18.06.2025**
 
-Stworzyłem kompleksową analizę wyników wyborów w Polsce od 1990 roku, opartą na zorganizowanych danych. Dokument zawiera zestawienie wyników wyborów parlamentarnych, europarlamentarnych i prezydenckich, z podziałem na następujące kategorie: rok wyborów, nazwa partii i jej skrót, liczba oddanych głosów, liczba uzyskanych mandatów, poglądy, w prezydenckich dodatkowo: dane kandydatów (imię i nazwisko) oraz ich wykształcenie.
 
-Taka struktura pozwala nie tylko na analizę zmian w preferencjach wyborców i dynamiki sceny politycznej, ale również na obserwację profili kandydatów oraz korelacji między wykształceniem a sukcesem wyborczym. Dokument zawiera także wizualizacje danych (tabele, wykresy) oraz podsumowania kluczowych trendów i wydarzeń politycznych. 
+W ramach tego projektu przeprowadziłem kompleksową analizę wyników wyborów parlamentarnych i prezydenckich w Polsce od 1990 roku. Celem było zidentyfikowanie kluczowych trendów politycznych, zmian w zachowaniach wyborczych, poparcie konkretnych poglądów i partii politycznych 
 
-Aby pobrać zestawienie w formacie Excel, kliknij poniższy link: 
-[Pobierz plik Excel](doc/wybory.xlsx)
+**Zakres analizy obejmował:**
+
+* Zestawienie danych wyborczych z lat 1990–2023
+* Wykresy i wizualizacje trendów poparcia dla głównych ugrupowań politycznych
+* Wykonanie dashboardów
+* Porównanie wyników wyborów prezydenckich i parlamentarnych
+
+Pobierz plik:
+[Wybory](wybory.xlsx)
