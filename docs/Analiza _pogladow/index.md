@@ -6,7 +6,5 @@ Stworzyłem kompleksową analizę wyników wyborów w Polsce od 1990 roku, opart
 
 Taka struktura pozwala nie tylko na analizę zmian w preferencjach wyborców i dynamiki sceny politycznej, ale również na obserwację profili kandydatów oraz korelacji między wykształceniem a sukcesem wyborczym. Dokument zawiera także wizualizacje danych (tabele, wykresy) oraz podsumowania kluczowych trendów i wydarzeń politycznych. 
 
-Tutaj screen z projektu:
-
-![Widok początkowy](images/wybory-1.png)
-![Widok jednej z rozmów](images/wybory-2.png)
+Pobierz plik:
+[Pobierz](wybory.xlsx)
