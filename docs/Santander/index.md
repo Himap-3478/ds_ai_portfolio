@@ -3,7 +3,6 @@
 Utworzone: **14.06.2025**
 
 
-
 W ramach platformy **Santander Open Academy** ukończyłem kursy doskonalące umiejętności pracy z danymi przy użyciu **Microsoft Excel** oraz **Microsoft Power BI**. Szkolenia miały charakter praktyczny i skupiały się na zastosowaniach narzędzi w analizie danych, raportowaniu oraz automatyzacji procesów biznesowych.
 
 **Zakres kursów obejmował m.in.:**
