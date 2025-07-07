@@ -4,28 +4,25 @@ Utworzone: **18.04.2025**
 
 Stworzyłem aplikację, która analizuje odpowiedzi użytkownika na ankietę i przypisuje go do odpowiedniego klastra, wykorzystując wcześniej wytrenowany model uczenia maszynowego. Projekt został zrealizowany jako część kursu „Od zera do AI”.
 
-Główne funkcje:
+**Główne funkcje:**
 
-Zbieranie danych: Dane wejściowe pochodzą z ankiety zawierającej pytania dotyczące umiejętności technicznych, zainteresowań i doświadczenia.
+* Zbieranie danych: Dane wejściowe pochodzą z ankiety zawierającej pytania dotyczące umiejętności technicznych, zainteresowań i doświadczenia.
+* Przetwarzanie danych: Dane zostały oczyszczone i przekształcone (m.in. standaryzacja, encoding).
+* Klasteryzacja: Wykorzystałem algorytmy do podziału użytkowników na grupy o podobnych cechach.
+* Dopasowywanie nowych użytkowników: Po wprowadzeniu danych, system przypisuje użytkownika do najbardziej pasującego klastra.
+* Wizualizacja i opis klastra: Po klasyfikacji, aplikacja wyświetla nazwę klastra oraz jego charakterystykę.
 
-Przetwarzanie danych: Dane zostały oczyszczone i przekształcone (m.in. standaryzacja, encoding).
+**Umiejętności:**
 
-Klasteryzacja: Wykorzystałem algorytmy do podziału użytkowników na grupy o podobnych cechach.
+* Python
+* scikit-learn
+* plotly
+* json
+* pandas
+* GitHub
+* Algorytmy
+* LLM
 
-Dopasowywanie nowych użytkowników: Po wprowadzeniu danych, system przypisuje użytkownika do najbardziej pasującego klastra.
-
-Wizualizacja i opis klastra: Po klasyfikacji, aplikacja wyświetla nazwę klastra oraz jego charakterystykę.
-
-Technologie:
-Python, scikit-learn, pandas, Git.
-
-Wyróżniki projektu:
-
-Praktyczne zastosowanie algorytmów nienadzorowanych w kontekście edukacyjnym.
-
-Intuicyjna aplikacja pozwalająca użytkownikowi na szybkie poznanie swojego profilu w kontekście nauki AI.
-
-Możliwość skalowania i rozbudowy (np. dodanie rekomendacji kursów na podstawie klastra).
 
 
 

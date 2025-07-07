@@ -2,8 +2,15 @@
 
 Utworzone: **03.04.2025**
 
-Aplikacja to mój odpowiednik Chata GPT. Prócz bycia chatem GPT, temu można dodatkowo zmieniać osobowość. Do tego przelicza koszt użycia z dolarów na złotówki.
+Aplikacja to mój odpowiednik Chata GPT. Prócz bycia chatem GPT, tutaj można dodatkowo zmieniać osobowość. Do tego przelicza koszt użycia z dolarów na złotówk, przez przeliczanie użytych tokenów.
 
+**Umiejętności:**
+
+* streamlit
+* dotenv
+* pathlib
+* Open AI
+* json
 
 
 <a href="https://github.com/Himap-3478/GPT" target="_blank" style="

@@ -10,12 +10,21 @@ W ramach platformy **Santander Open Academy** ukończyłem kursy doskonalące um
 * Zaawansowane funkcje Excela (tabele przestawne, funkcje logiczne, wyszukiwanie, analiza danych)
 * Automatyzację pracy z danymi za pomocą Power Query
 * Tworzenie dynamicznych raportów i dashboardów w Power BI
-* Modelowanie danych, relacje i wykorzystanie języka DAX
+* Modelowanie danych i relacje
 * Wizualizację danych i storytelling w kontekście biznesowym
+
+**Umiejętności:**
+
+* Myślenie analityczne
+* MS Word i Power BI
+* Stosowanie funkcji w Excelu m.in. "JEŻELI" oraz "WYSZUKAJ.PIONOWO"
+* Tworzenie tabeli przestawnych
+* Tworzenie raportów biznesowych w Power BI
+* Wyciąganie wniosków biznesowych
 
 
 Pobierz plik:
 - [Funkcja "jeżeli"](doc/Funkcja.xlsx)
-- [Funkcja "wyszukaj pionowo"](doc/Funkcja1.xlsx))
+- [Funkcja "wyszukaj pionowo"](doc/Funkcja1.xlsx)
 - [Power BI](doc/PowerBI.pbix)
 - [Tabela przestawna](doc/Tabela.xlsx)

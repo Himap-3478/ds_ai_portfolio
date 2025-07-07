@@ -2,8 +2,7 @@
 
 Utworzone: **18.06.2025**
 
-
-W ramach tego projektu przeprowadziłem kompleksową analizę wyników wyborów parlamentarnych i prezydenckich w Polsce od 1990 roku. Celem było zidentyfikowanie kluczowych trendów politycznych, zmian w zachowaniach wyborczych, poparcie konkretnych poglądów i partii politycznych 
+W ramach tego projektu przeprowadziłem kompleksową analizę wyników wyborów parlamentarnych i prezydenckich oraz do europarlamentu w Polsce od 1990 roku. Celem było zidentyfikowanie kluczowych trendów politycznych, zmian w zachowaniach wyborczych, poparcie konkretnych poglądów i partii politycznych 
 
 **Zakres analizy obejmował:**
 
@@ -11,6 +10,17 @@ W ramach tego projektu przeprowadziłem kompleksową analizę wyników wyborów 
 * Wykresy i wizualizacje trendów poparcia dla głównych ugrupowań politycznych
 * Wykonanie dashboardów
 * Porównanie wyników wyborów prezydenckich i parlamentarnych
+
+
+**Umiejętności:**
+
+* MS Excel
+* Tworzenie raportów
+* Edycja danych w Power Query
+* Tworzenie tabel i wykresów przestawnych
+* Zastosowanie funkcji
+* Analiza danych
+*Krytyczne myślenie
 
 Pobierz plik:
 [Wybory](doc/wybory.xlsx)

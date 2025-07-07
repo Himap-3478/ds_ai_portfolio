@@ -4,6 +4,25 @@ Utworzono: **29.04.2025**
 
 Zadaniem aplikacji jest **generowanie kolorowanek i opowiadań**. Użytkownik wpisuje temat kolorowanki. Następnie AI podaje kilka tematów, z których użytkownik wybiera jeden oraz wybiera ilość kolorowanek. Po kliknięciu przycisku **"Generuj kolorowanki"** AI tworzy kolorowanki na podany temat i w odpowiedniej ilości. Jest także możliwośc pobrania i wydrukowania kolorowanki, dzięki przyciskowi **Pobierz kolorowankę**. Użytkownik może także za pomocą przycisku **"Generuj opowiadanie"** polecić sztucznej inteligencji wygenerowanie krótkiego opowiadania do wybranego tematu. Celem aplikacji jest zapewnienie dzieciom zajęcia na deszczowe lub zimowe dni. 
 
+**Adresaci:**
+* Rodzice
+* Dzieci
+* Nauczyciele
+* Opiekunowie dzieci
+
+
+**Umiejętności:**
+
+* Open AI
+* Python
+* dotenv
+* LLM
+* streamlit
+* BytesIO
+* requests
+* json
+* Kreatywność
+
 
 <a href="https://github.com/Himap-3478/Kolorowanki" target="_blank" style="
   display: inline-flex;

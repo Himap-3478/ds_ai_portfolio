@@ -2,7 +2,28 @@
 
 Utworzone: **25.01.2025**
 
-Zapraszam do zapoznania się z wyjątkowym projektem mojego autorstwa, który przenosi nas w świat analizy danych irysów za pomocą eksploracji domenowej (EDA). W tym projekcie znajdziesz mnóstwo trafnych wniosków i ciekawych obserwacji, które rzucają nowe światło na te piękne kwiaty. Przygotuj się na fascynującą podróż przez dane, która z pewnością wzbogaci Twoją wiedzę i zainspiruje do dalszych badań.
+Zapraszam do zapoznania się z projektem mojego autorstwa, który przenosi nas w świat analizy danych irysów za pomocą eksploracji domenowej (EDA). W tym projekcie znajdziesz mnóstwo trafnych wniosków i ciekawych obserwacji, które rzucają nowe światło na te piękne kwiaty. Przygotuj się na fascynującą podróż przez dane, która z pewnością wzbogaci Twoją wiedzę i zainspiruje do dalszych badań.
+
+
+**Wnioski:**
+
+* Iris virginica: kiedy wzrasta długość płatka to wzrasta także długością kielicha. Jest to też największa odmiana Irysa
+* Iris versicolor: kiedy wzrasta długość płatka, wzrasta długość kielicha i szerokość płatka. Gdy wzrasta szerokość kielicha to wzrasta szerokość płatka.
+* Iris setosa: kiedy wzrasta szerokość kielicha, to wzrasta także długość kielicha. Jest to najmniejsza odmiana Irysa
+
+
+**Umiejętności:**
+* Jupyter Notebook
+* EDA
+* seaborn
+* matplotlib
+* Markdown
+* Analiza danych
+* Wizualizacja
+* Analityczne i krytyczne myślenie
+* Wyciąganie logicznych wniosków
+
+
 
 <a href="irysy.ipynb" download class="md-button md-button--primary">Pobierz Notebook</a>
 

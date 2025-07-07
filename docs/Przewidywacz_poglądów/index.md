@@ -4,6 +4,21 @@ Utworzone: **03.06.2025**
 
 Stworzyłem aplikację opartą na danych historycznych z wyborów parlamentarnych, prezydenckich oraz do Parlamentu Europejskiego w Polsce od 1990 roku, która przewiduje poziom poparcia dla różnych poglądów politycznych w zależności od wybranego roku. W projekcie zastosowałem modele uczenia maszynowego oraz analizę szeregów czasowych, by odwzorować i przewidywać zmiany preferencji społecznych na przestrzeni dekad.
 
+
+**Umiejętności:**
+* ETL i EDA
+* streamlit
+* numpy
+* joblib
+* sklearn
+* plotly
+* pandas
+* Python
+* Uczenie maszynowe
+* Predykcja modelu
+
+
+
 <a href="https://github.com/Himap-3478/Przewidywacz-pogl-d-w" target="_blank" style="
   display: inline-flex;
   align-items: center;
