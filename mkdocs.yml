@@ -15,17 +15,17 @@ nav:
   - Strona Domowa: index.md
   - Projekty:
       - Analiza danych:
-       - "Analiza wyborów w Polsce": Analiza_pogladow/index.md
-       - "Wybory prezydenckie w III RP": Prezydenci/index.md
-       - "Wybory do Europarlamentu w Polsce": Europarlament/index.md
-       - "Wybory do Senatu w III RP": Senat/index.md
-       - "Wybory do Sejmu w III RP": Sejm/index.md
-       - "Titanic": Titanic/index.md
-       - "Iris": Irysy/index.md
-       - "Kursy Santander": Santander/index.md  
-      - Data science:     
-        - "Znajdź przyjaciół": Find_friends/index.md
-        - "GPT": GPT/index.md
-        - "Matejko": Generator_kolorowanek/index.md
-        - "Przewidywacz poparcia w Polsce": Przewidywacz_poglądów/index.md
-        - "Ceny mieszkań": Ceny_mieszkan/index.md
+          - "Analiza wyborów w Polsce": Analiza_pogladow/index.md
+          - "Wybory prezydenckie w III RP": Prezydenci/index.md
+          - "Wybory do Europarlamentu w Polsce": Europarlament/index.md
+          - "Wybory do Senatu w III RP": Senat/index.md
+          - "Wybory do Sejmu w III RP": Sejm/index.md
+          - "Titanic": Titanic/index.md
+          - "Iris": Irysy/index.md
+          - "Kursy Santander": Santander/index.md  
+      - Data science:
+          - "Znajdź przyjaciół": Find_friends/index.md
+          - "GPT": GPT/index.md
+          - "Matejko": Generator_kolorowanek/index.md
+          - "Przewidywacz poparcia w Polsce": Przewidywacz_poglądów/index.md
+          - "Ceny mieszkań": Ceny_mieszkan/index.md
