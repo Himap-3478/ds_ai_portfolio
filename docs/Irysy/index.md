@@ -2,26 +2,55 @@
 
 Utworzone: **25.01.2025**
 
-Zapraszam do zapoznania się z projektem mojego autorstwa, który przenosi nas w świat analizy danych irysów za pomocą eksploracji domenowej (EDA). W tym projekcie znajdziesz mnóstwo trafnych wniosków i ciekawych obserwacji, które rzucają nowe światło na te piękne kwiaty. Przygotuj się na fascynującą podróż przez dane, która z pewnością wzbogaci Twoją wiedzę i zainspiruje do dalszych badań.
+
+### 🎯 **Cel projektu:**
+
+Celem projektu była eksploracja klasycznego zbioru danych **Iris**, obejmującego trzy gatunki kwiatów: *Setosa*, *Versicolor* i *Virginica*. Analiza miała na celu odkrycie zależności między zmiennymi (cechami fizycznymi) kwiatów oraz zrozumienie różnic pomiędzy gatunkami.
 
 
-**Wnioski:**
+Zakres analizy:
 
-* Iris virginica: kiedy wzrasta długość płatka to wzrasta także długością kielicha. Jest to też największa odmiana Irysa
-* Iris versicolor: kiedy wzrasta długość płatka, wzrasta długość kielicha i szerokość płatka. Gdy wzrasta szerokość kielicha to wzrasta szerokość płatka.
-* Iris setosa: kiedy wzrasta szerokość kielicha, to wzrasta także długość kielicha. Jest to najmniejsza odmiana Irysa
+* Wczytanie i wstępne oczyszczenie danych
+* Analiza rozkładów zmiennych: długości i szerokości kielicha oraz płatka
+* Obliczenie korelacji między cechami
+* Wizualizacja danych za pomocą parplotów, heatmap i wykresów pudełkowych
+* Wyciągnięcie obserwacji biologiczno-statystycznych dla każdego z gatunków
 
 
-**Umiejętności:**
-* Jupyter Notebook
-* EDA
-* seaborn
-* matplotlib
-* Markdown
-* Analiza danych
-* Wizualizacja
-* Analityczne i krytyczne myślenie
-* Wyciąganie logicznych wniosków
+Najciekawsze wnioski:
+
+**Iris Virginica** *(największy z kwiatów)*:
+
+* Im dłuższy płatek, tym dłuższy kielich → **silna dodatnia korelacja**
+* Największe średnie wartości długości i szerokości wśród wszystkich gatunków
+
+**Iris Versicolor**:
+
+* Wraz z długością płatka rosną zarówno długość kielicha, jak i szerokość płatka
+* **Szerokość kielicha wpływa na szerokość płatka** – interesująca korelacja między "obwodami"
+
+**Iris Setosa** *(najmniejszy gatunek)*:
+
+* Wzrost szerokości kielicha wiąże się z większą długością kielicha
+* Najniższe wartości cech fizycznych – dobrze odseparowane od pozostałych gatunków (widoczne na wykresach klastra)
+
+**Insight**: Różnice między gatunkami są na tyle wyraźne, że można je rozpoznać nawet na podstawie prostych wykresów 2D. To tłumaczy, dlaczego ten zbiór jest tak często wykorzystywany do uczenia modeli klasyfikacyjnych.
+
+
+Technologie i narzędzia:
+
+* **Python** – eksploracja i analiza danych
+* **Pandas, NumPy** – manipulacja danymi
+* **Seaborn, Matplotlib** – wizualizacje
+* **Jupyter Notebook** – dokumentacja i narracja analizy
+
+
+Umiejętności zaprezentowane:
+
+* Eksploracyjna analiza danych (EDA)
+* Analiza korelacji między zmiennymi
+* Tworzenie estetycznych i informatywnych wizualizacji
+* Formułowanie precyzyjnych wniosków na podstawie danych liczbowych
 
 
 

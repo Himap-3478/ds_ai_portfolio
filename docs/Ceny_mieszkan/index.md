@@ -2,19 +2,47 @@
 
 Utworzone: **15.05.2025**
 
-Aplikacja ma na celu przewidzieć ceny mieszkań w Trójmieście (Gdańsk, Gdynia i Sopot) oraz w Małym Trójmieście Kaszubskim (Wejherowo, Reda i Rumia). Użytkownik wprowadza **Miejscowość, ilość metrów kwadratowych, rok i kwartał** w którym chce zakupić bądź sprzedać mieszkanie. Aplikacja wyświetli cenę transakcyjną mieszkania. 
+
+### 📌 **Opis projektu:**
+
+Stworzyłem aplikację predykcyjną, której celem jest oszacowanie cen mieszkań na rynku wtórnym i pierwotnym w miastach:
+**Gdańsk, Gdynia, Sopot, Reda, Rumia i Wejherowo**.
+
+Użytkownik podaje:
+
+* miasto,
+* powierzchnię mieszkania (m²),
+* planowany **rok i kwartał** transakcji.
+
+Aplikacja przewiduje **cenę transakcyjną mieszkania** na podstawie danych historycznych i trendów rynkowych.
 
 
-**Umięjętności:**
-* ETL i EDA 
-* Uczenie maszynowe
-* streamlit
-* pandas
-* pycaret
+Zastosowane techniki:
+
+* **Uczenie maszynowe:**
+  * regresja liniowa, drzewiaste modele regresyjne (XGBoost, LightGBM)
+  * grid search i walidacja krzyżowa
+
+* **Szeregi czasowe:**
+  * analiza trendów kwartalnych
+  * dekompozycja sezonowości
+
+* **Feature engineering:**
+  * tworzenie zmiennych: kwartał, miasto, inflacja, rodzaj zabudowy, lokalizacja
+
+* **Preprocessing danych:**
+  * czyszczenie danych z REAS, NBP i otodom.pl (lub podobnych źródeł)
+  * one-hot encoding dla miast i kwartalnych zmiennych czasowych
 
 
+**Technologie:**
 
-**UWAGA: Aplikacja wylicza cenę z rynku wtórnego**
+* **Python** (pandas, scikit-learn)
+* **Streamlit** – frontend aplikacji (interfejs użytkownika)
+* **Jupyter Notebook** – eksploracja danych i trenowanie modeli
+* **Excel** – weryfikacja danych i analiza wstępna
+
+
 
 
 <a href="https://github.com/Himap-3478/Ceny-mieszka-" target="_blank" style="

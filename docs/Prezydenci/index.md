@@ -2,42 +2,68 @@
 
 utworzone: **02.06.2025**
 
-W ramach własnej analizy danych prześledziłem wyniki wyborów na Prezydenta RP na przestrzeni lat, koncentrując się na trzech kluczowych aspektach:
 
-🔹 Procent głosów oddanych na poszczególnych kandydatów w danym roku w pierwszej i drugiej turze
-🔹 Wykształcenie, partia i poglądy kandydatów 
+Cel projektu:
+Celem analizy było zrozumienie zmieniających się preferencji wyborców w wyborach prezydenckich w Polsce, ze szczególnym uwzględnieniem:
 
-**Wnioski:**
-
-* Kandydaci mają najczęściej wykształcecie wyższe (63)
-* Najwięcej kandydatów nie należało do żadnej partii (12)
-* Najwięcej kandydatów miało poglądy prawicowe
-* W pierwszej turze najwięcej głosów miał A. Kwaśniewski w 2000 roku, wygrywając wybory w pierwszej turze. 
-* Najwięcej głosów w II  turze otrzymał L. Wałęsa (74,2%), a najniższe poparcie w I turze miał L. Kaczyński w 2005 roku.
-* We większości przypadków, w II turze wygrywało się tylko kilkoma procentami przewagi.
-* Zdecydowanie najwięcej prezydentur było z Prawa i Sprawiedliwości (3)
-* Najwyższe poparcie do 2012 miała centrolewica, a od 2012 centroprawica. 
-* Od 2005 roku prawica zyskuje coraz więcej poparcia. 
-* Największe poparcie bo aż 70% miała centroprawica w 1990 roku, aby 5 lat później mieć najmniejsze (8%). 
-* Centrolewica najniższe wyniki miała w 1990 roku (18%), ale 5 lat później miała rekordowe 68%. 
-* Poglądy lewicowe miały bardzo duży skok poparcia w 2005 roku (15%), a także centrum w 2020 - 16%.
-* Jest duża korelacja dodatnia między zwycięstwem w I turze, a zwycięstwem w II turze, co ciekawe im mniej wykształcony kandydat tym zdobywał więcej głosów w II turze mimo, że wykształcenie nie ma wpływu na głosy oddane w I turze. 
-* Poglądy nie mają większego znaczenia w wyborach, za to przynależność do partii politycznej ma ogromne.
+* wyników procentowych kandydatów w I i II turze,
+* wpływu poglądów politycznych, wykształcenia oraz przynależności partyjnej na wyniki,
+* długofalowych trendów poparcia dla różnych stron sceny politycznej.
 
 
-**Umiejętności:**
+Zakres analizy:
 
-* Python
-* pandas 
-* matplotlib
-* seaborn
-* numpy
-* sklearn
-* plotly
-* EDA i ETL
-* Myślenie analityczne
-* Wyciąganie trafnych wniosków
-* Wizualizacja
+* Porównanie wyników głosowania w I i II turze na przestrzeni 30 lat
+* Analiza cech kandydatów: wykształcenie, przynależność partyjna, poglądy polityczne
+* Ocena zależności między cechami kandydatów a wynikami wyborów
+* Trendy poparcia dla: lewicy, centrum, prawicy, partii i bezpartyjnych
+
+
+Kluczowe wnioski:
+
+1. Wykształcenie kandydatów:
+
+   * 63% kandydatów posiadało wyższe wykształcenie.
+   * Ciekawa korelacja: im niższy poziom wykształcenia, tym **lepszy wynik w II turze**. W I turze brak zależności.
+
+2. Przynależność partyjna:
+
+   * Najwięcej kandydatów było niezależnych (12 osób), ale **najczęściej wygrywali kandydaci partyjni**.
+   * Aż 3 prezydentury należały do kandydatów z Prawa i Sprawiedliwości.
+
+3. Poglądy polityczne:
+
+   * Najwięcej kandydatów miało poglądy prawicowe.
+   * Największe poparcie dla:
+
+     * Centroprawicy: 70% w 1990 roku (rekord), spadek do 8% w 1995 r.
+     * Centrolewicy: 68% w 1995 r. (rekord), najniższe – 18% w 1990 r.
+
+**Trend:** Od 2005 roku rosnące poparcie dla prawicy.
+
+4. Wyniki wyborcze:
+
+   * Największe zwycięstwo w I turze: **Aleksander Kwaśniewski (2000)** – wygrana bez II tury.
+   * Największy wynik w II turze: **Lech Wałęsa (74,2%)
+   * Zwycięstwo w I turze silnie koreluje z wygraną w II turze – **co sugeruje przewagę silnego pierwszego wrażenia kampanii**.
+
+
+
+Technologie i narzędzia:
+
+* **Python**: analiza danych (pandas, numpy)
+* **Matplotlib i Seaborn**: wizualizacje
+* **Jupyter Notebook**: prezentacja projektu
+
+
+Umiejętności zaprezentowane w projekcie:
+
+* Przetwarzanie i czyszczenie danych (data wrangling)
+* Łączenie danych z różnych źródeł (kandydaci + wyniki + partie)
+* Eksploracyjna analiza danych (EDA)
+* Wizualizacja trendów politycznych
+* Wnioskowanie i komunikacja danych w sposób przystępny
+
 
 
 

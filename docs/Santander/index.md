@@ -3,24 +3,47 @@
 Utworzone: **14.06.2025**
 
 
-W ramach platformy **Santander Open Academy** ukończyłem kursy doskonalące umiejętności pracy z danymi przy użyciu **Microsoft Excel** oraz **Microsoft Power BI**. Szkolenia miały charakter praktyczny i skupiały się na zastosowaniach narzędzi w analizie danych, raportowaniu oraz automatyzacji procesów biznesowych.
+Opis kursów:
 
-**Zakres kursów obejmował m.in.:**
+Ukończyłem intensywne kursy praktyczne w ramach platformy Santander Open Academy, koncentrujące się na wykorzystaniu **Microsoft Excel** i **Microsoft Power BI** w analizie danych, raportowaniu oraz automatyzacji procesów biznesowych.
 
-* Zaawansowane funkcje Excela (tabele przestawne, funkcje logiczne, wyszukiwanie, analiza danych)
-* Automatyzację pracy z danymi za pomocą Power Query
-* Tworzenie dynamicznych raportów i dashboardów w Power BI
-* Modelowanie danych i relacje
-* Wizualizację danych i storytelling w kontekście biznesowym
 
-**Umiejętności:**
+Zakres merytoryczny:
 
-* Myślenie analityczne
-* MS Word i Power BI
+Excel:
+
+* Tabele przestawne i analiza wielowymiarowa
+* Funkcje logiczne i warunkowe 
+* Wyszukiwanie, sortowanie i filtrowanie danych
+
+Power Query (Excel i Power BI):
+
+* Automatyczne czyszczenie i transformacja danych
+* Tworzenie zapytań i łączenie wielu źródeł danych
+* Harmonogramy odświeżania danych
+
+Power BI:
+
+* Projektowanie interaktywnych **dashboardów i raportów**
+* Modelowanie danych i relacje między tabelami
+* Tworzenie miar i kolumn w języku **DAX**
+* Storytelling i wizualizacja danych w kontekście biznesowym
+
+Korzyści z kursu:
+
+Dzięki kursom ugruntowałem wiedzę z zakresu pracy z danymi w narzędziach powszechnie stosowanych w biznesie i raportowaniu korporacyjnym. Zdobyte kompetencje mogę z powodzeniem wykorzystać w pracy jako **analityk danych, BI developer, specjalista ds. raportowania** lub **kontroler finansowy**.
+
+
+Umiejętności praktyczne zdobyte w trakcie kursu:
+
+* Automatyzacja analizy danych
+* Tworzenie dynamicznych i responsywnych raportów menedżerskich
+* Wizualizacja KPI i trendów
+* Modelowanie danych z różnych źródeł (pliki, bazy danych, web)
 * Stosowanie funkcji w Excelu m.in. "JEŻELI" oraz "WYSZUKAJ.PIONOWO"
 * Tworzenie tabeli przestawnych
-* Tworzenie raportów biznesowych w Power BI
 * Wyciąganie wniosków biznesowych
+
 
 
 Pobierz plik:

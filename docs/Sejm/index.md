@@ -2,40 +2,67 @@
 
 utworzone: **19.05.2025**
 
-W ramach własnej analizy danych prześledziłem wyniki polskich wyborów do Sejmu na przestrzeni lat, koncentrując się na trzech kluczowych aspektach:
+Cel projektu:
 
-🔹 Procent głosów oddanych na poszczególne partie polityczne w danym roku
-🔹 Rozkład mandatów w Sejmie i jego zależność od systemu wyborczego
-🔹 Poglądy polityczne partii i jak odpowiadają one preferencjom głosujących
+Celem analizy było zbadanie, jak zmieniała się struktura polityczna Sejmu w Polsce od 1991 roku – z uwzględnieniem:
 
-
-**Wnioski:**
-
-* Rekord posiadanych mandatów należy do Prawa i Sprawiedliwości w latach 2015-2019 oraz 2019-2023 (235 mandatów). 
-* Najdłużej w Sejmie była partia: Polskie Stronnictwo Ludowe bo aż 10 kadencji (Od 2023 do 2025 skład Trzeciej Drogi), zaraz za nią jest Mniejszość Niemiecka, która była w Sejmie 9 kadencji. 
-* Od 2001 roku w Sejmie obecne są dwie największe partie polityczne: Platforma (Koalicja) Obywatelska oraz Prawo i Sprawiedliwość. 
-* Najwięcej partii było w Sejmie w latach 1991-1993 bo aż 28 partii i koitetów wyborczych. A najmniej w obecnej kadencji (5 partii/koalicji).
-* Największe poparcie miało Prawo i Sprawiedliwość w roku 2019 (43,59%), a najmniejsze poparcie miał Sojusz Kobiet Przeciw Trudnościom Życia w 1991 roku (0,02%)
-* W 2015 roku centroprawica cieszyła się najwyższym - 59% - poparciem. Najgorsze poparcie miały poglądy centrolewicowe w 2011 roku (0%). Centrum od 1997 praktycznie nie istnieje na scenie politycznej, podobnie jak centrolewica od 2005 do 2010.
-* Najlepsze i najgorsze wyniki poszczególnych poglądów:
-- prawica: najlepszy: rok 2005 - 38,28%; najgorszy: rok 2015 - 4,88%
-- centroprawica: najlepszy: rok 2015 - 59,39%; najgorszy: rok 2001 - 21,66%
-- centrum: najlepszy: rok 1991 - 10,45%; najgorszy: rok 2011 - 0,19%
-- centrolewica: najlepszy: rok 2023 - 30,69%; najgorszy: rok 2011 - 0%
-- lewica: najlepszy: rok 2001 - 51,34%; najgorszy: rok 2023 - 8,72%
+* poparcia dla partii politycznych,
+* przydziału mandatów (w kontekście systemu wyborczego),
+* ewolucji preferencji ideologicznych społeczeństwa.
 
 
-**Umiejętności:**
-* Python
-* pandas
-* matplotlib 
-* seaborn 
-* numpy
-* plotly
-* sklearn
-* Wizualizacja
-* Umiejętność wyciągania trafnych wniosków
-* Analityczne i krytyczne myślenie
+Zakres analizy:
+
+* Zebranie i oczyszczenie danych z wyborów parlamentarnych (10 kadencji)
+* Analiza procentowego poparcia i liczby mandatów zdobytych przez partie polityczne
+* Przypisanie partii do kategorii ideologicznych (prawica, centroprawica, centrum, centrolewica, lewica)
+* Ocena wpływu systemu d’Hondta na rzeczywistą reprezentację ugrupowań
+* Wizualizacja trendów: liczby partii w Sejmie, poparcia społecznego, siły mandatowej
+
+
+Kluczowe wnioski:
+
+Struktura Sejmu:
+
+* **Rekord mandatów:** *Prawo i Sprawiedliwość* (2015–2023) – 235 mandatów
+* **Najdłuższa obecność:** *PSL* – nieprzerwanie od 10 kadencji (w tym jako część Trzeciej Drogi)
+* **Największy rozrzut partyjny:** *kadencja 1991–1993* – aż **28 partii i komitetów wyborczych**
+* **Największa koncentracja:** *kadencja 2023–2027* – tylko 5 głównych bloków
+
+Trendy polityczne:
+
+* Od 2001 roku dominacja **PiS** i **PO/KO** – tylko te dwa ugrupowania były stale obecne.
+* Największe poparcie dla partii: **PiS (2019)** – 43,59%
+* Najmniejsze: **Sojusz Kobiet Przeciw Trudnościom Życia (1991)** – 0,02% (!)
+
+Zachowania ideologiczne wyborców:
+
+| Poglądy           | Najlepszy wynik | Najgorszy wynik |
+| ----------------- | --------------- | --------------- |
+| **Prawica**       | 38,28% (2005)   | 4,88% (2015)    |
+| **Centroprawica** | 59,39% (2015)   | 21,66% (2001)   |
+| **Centrum**       | 10,45% (1991)   | 0,19% (2011)    |
+| **Centrolewica**  | 30,69% (2023)   | 0% (2011)       |
+| **Lewica**        | 51,34% (2001)   | 8,72% (2023)    |
+
+**Insight:** Polityczne centrum w Polsce niemal zniknęło po 1997 roku. Od 2005 r. scena jest spolaryzowana: dominacja centroprawicy, a **lewica notuje stały spadek** z historycznego szczytu 51% do zaledwie 8,7% w 2023.
+
+
+Technologie i narzędzia:
+
+* **Python (pandas, seaborn, matplotlib)** – analiza i wizualizacje danych
+* **Excel** – obróbka danych źródłowych
+* **Jupyter Notebook** – dokumentacja i narracja analizy
+
+
+Umiejętności pokazane w projekcie:
+
+* Analiza danych politycznych na przestrzeni wielu lat (longitudinal data analysis)
+* Zastosowanie klasyfikacji ideologicznej do analizy społecznej
+* Prezentowanie złożonych danych w czytelnej formie
+* Przekształcanie danych statystycznych w konkretne wnioski polityczne
+* Znajomość systemu wyborczego i jego wpływu na rozkład mandatów
+
 
 
 <a href="Sejm.ipynb" class="md-button md-button--primary">Pobierz Notebook</a>

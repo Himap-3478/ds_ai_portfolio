@@ -2,26 +2,36 @@
 
 Utworzono: **29.04.2025**
 
-Zadaniem aplikacji jest **generowanie kolorowanek i opowiadań**. Użytkownik wpisuje temat kolorowanki. Następnie AI podaje kilka tematów, z których użytkownik wybiera jeden oraz wybiera ilość kolorowanek. Po kliknięciu przycisku **"Generuj kolorowanki"** AI tworzy kolorowanki na podany temat i w odpowiedniej ilości. Jest także możliwośc pobrania i wydrukowania kolorowanki, dzięki przyciskowi **Pobierz kolorowankę**. Użytkownik może także za pomocą przycisku **"Generuj opowiadanie"** polecić sztucznej inteligencji wygenerowanie krótkiego opowiadania do wybranego tematu. Celem aplikacji jest zapewnienie dzieciom zajęcia na deszczowe lub zimowe dni. 
 
-**Adresaci:**
+### 📌 **Opis projektu:**
+
+Stworzyłem interaktywną aplikację wykorzystującą sztuczną inteligencję do generowania **kolorowanek i opowiadań na wybrany temat**. Celem projektu było stworzenie narzędzia, które wspiera rozwój wyobraźni dzieci i zapewnia kreatywną rozrywkę podczas zimowych lub deszczowych dni – zarówno w domu, jak i w szkole.
+
+
+Funkcjonalności aplikacji:
+
+* 🔎 **Tematyka kolorowanek**: użytkownik wpisuje własny temat (np. „smoki”, „las”, „dinozaury”), a AI podpowiada listę kilku precyzyjnych wariantów.
+* 🎨 **Generowanie grafik**: po wybraniu tematu i liczby kolorowanek, AI generuje czarno-białe ilustracje do wydruku (poprzez DALL·E).
+* 📄 **Tworzenie opowiadań**: użytkownik może wygenerować krótkie opowiadanie do wybranej kolorowanki (np. bajka, przygoda, opis sytuacji).
+* 📥 **Pobieranie i druk**: każdą kolorowankę można łatwo pobrać jako plik PNG.
+* 🧒 **Dostosowanie do dzieci**: interfejs jest prosty, kolorowy i bezpieczny – gotowy do użycia przez dzieci lub z pomocą dorosłych.
+
+
+Grupa docelowa:
+
 * Rodzice
-* Dzieci
-* Nauczyciele
-* Opiekunowie dzieci
+* Nauczyciele i wychowawcy
+* Dzieci (z pomocą dorosłych)
+* Pracownicy świetlic, bibliotek i przedszkoli
 
 
-**Umiejętności:**
+Wykorzystane technologie:
 
-* Open AI
-* Python
-* dotenv
-* LLM
-* streamlit
-* BytesIO
-* requests
-* json
-* Kreatywność
+* **Frontend**: `Streamlit` 
+* **Backend AI**: `OpenAI API` (do tekstów i tematów), `DALL·E` (do grafik)
+* **PDF/obrazki**
+* **Obsługa plików**: generowanie i eksport do formatu `.png`
+
 
 
 <a href="https://github.com/Himap-3478/Kolorowanki" target="_blank" style="

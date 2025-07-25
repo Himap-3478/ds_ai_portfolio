@@ -3,31 +3,47 @@
 
 utworzone: **28.01.2025**
 
-Zapraszam do zapoznania się z projektem mojego autorstwa, który przenosi nas w świat analizy danych ostatniego rejsu Titanica za pomocą eksploracji domenowej (EDA). W tym projekcie znajdziesz mnóstwo trafnych wniosków i ciekawych obserwacji, które rzucają nowe światło na te najbardziej znaną tragedię morską. 
+
+### 🎯 **Cel projektu:**
+
+Celem analizy było zrozumienie, jakie czynniki mogły mieć wpływ na przeżycie pasażerów słynnego rejsu RMS Titanic. Skoncentrowałem się na eksploracji danych demograficznych, klasowych i logistycznych w celu wyciągnięcia wartościowych wniosków oraz wizualizacji statystycznych zależności.
 
 
-**Wnioski:**
+Zakres analizy:
 
-* Najwięcej osób wyruszyło w rejs w porcie Southampton, następnie w Cherbourg, a najmniej w Queenstown. 
-* Najwięcej osób było w 3 klasie, a najmniej w drugiej. 
-* Więcej osób zginęło niż przeżyło. W większości były to osoby młode i mężczyżni.
-* Zdecydowana większość pasażerów to osoby mlode. Większość osób na pokładzie miała mniej niż 30 lat. Były pojedyncze osoby mające ponad 66 lat
-* Większość osób na pokładzie płynęła bez rodziny lub/i małżonka.
-* Szalupy były nierównomiernie napełnione w niektórych było kilkanaście osób, a w innych tylko kilka osób. Co wynikało z tego że szalup ratunkowych było tylko 27, czyli o wiele za mało aby uratować chociaż połowę pasażerów.
+* Czyszczenie i analiza jakości danych
+* Eksploracja zmiennych: wiek, płeć, klasa, port zaokrętowania, liczba członków rodziny
+* Wykresy: heatmapy, histogramy, wykresy słupkowe, rozkłady przeżywalności
+* Weryfikacja hipotez nt. czynników wpływających na przeżycie
 
 
-**Umiejętności:**
+Najciekawsze wnioski:
 
-* Jupyter Notebook
-* SQL 
-* EDA
-* seaborn
-* matplotlib
-* Markdown
-* Analiza danych
-* Wizualizacja
-* Analityczne i krytyczne myślenie
-* Wyciąganie logicznych wniosków
+* **Port zaokrętowania**: Najwięcej pasażerów wsiadło w Southampton, najmniej w Queenstown.
+* **Klasa podróży**: Dominowała 3. klasa, co koreluje z niższym wskaźnikiem przeżycia.
+* **Śmiertelność**: Więcej pasażerów zginęło niż przeżyło – najczęściej byli to **młodzi mężczyźni z niższych klas**.
+* **Wiek**: Większość pasażerów miała mniej niż 30 lat; osoby starsze stanowiły mniejszość.
+* **Rodzina na pokładzie**: Zdecydowana większość pasażerów podróżowała samotnie lub bez członków rodziny.
+* **Szalupy ratunkowe**: Tylko 27 szalup – zbyt mało, by uratować wszystkich. Szalupy były **nierównomiernie napełnione** – niektóre zawierały zaledwie kilka osób, co mogło wynikać z paniki i braku przeszkolenia załogi.
+
+**Insight**: Pasażerowie płci żeńskiej i dzieci z wyższych klas mieli wyraźnie większe szanse przeżycia. To potwierdza zasadę "kobiety i dzieci pierwsi", choć nie została ona egzekwowana jednolicie.
+
+
+Technologie i narzędzia:
+
+* **Python** – eksploracja danych
+* **Pandas, NumPy** – przygotowanie i manipulacja danymi
+* **Seaborn, Matplotlib** – wykresy i heatmapy
+* **Jupyter Notebook** – prezentacja analizy i wniosków
+
+
+Umiejętności zaprezentowane:
+
+* Czyszczenie i eksploracja danych (EDA)
+* Wizualizacja danych i rozkładów
+* Analiza zależności między zmiennymi (np. klasa a przeżycie)
+* Wnioskowanie na podstawie danych historycznych
+
 
 
 <a href="Titanic.ipynb" class="md-button md-button--primary">Pobierz Notebook</a>
