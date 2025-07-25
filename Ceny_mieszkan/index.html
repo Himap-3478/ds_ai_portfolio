@@ -555,6 +555,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Ceny mieszkań
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -566,6 +579,34 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#opis-projektu" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Opis projektu:
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -622,6 +663,23 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#opis-projektu" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Opis projektu:
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -641,14 +699,49 @@
 
 <h1 id="przewidywacz-cen">Przewidywacz cen</h1>
 <p>Utworzone: <strong>15.05.2025</strong></p>
-<p>Aplikacja ma na celu przewidzieć ceny mieszkań w Trójmieście (Gdańsk, Gdynia i Sopot) oraz w Małym Trójmieście Kaszubskim (Wejherowo, Reda i Rumia). Użytkownik wprowadza <strong>Miejscowość, ilość metrów kwadratowych, rok i kwartał</strong> w którym chce zakupić bądź sprzedać mieszkanie. Aplikacja wyświetli cenę transakcyjną mieszkania. </p>
-<p><strong>Umięjętności:</strong>
-* ETL i EDA 
-* Uczenie maszynowe
-* streamlit
-* pandas
-* pycaret</p>
-<p><strong>UWAGA: Aplikacja wylicza cenę z rynku wtórnego</strong></p>
+<h3 id="opis-projektu">📌 <strong>Opis projektu:</strong></h3>
+<p>Stworzyłem aplikację predykcyjną, której celem jest oszacowanie cen mieszkań na rynku wtórnym i pierwotnym w miastach:
+<strong>Gdańsk, Gdynia, Sopot, Reda, Rumia i Wejherowo</strong>.</p>
+<p>Użytkownik podaje:</p>
+<ul>
+<li>miasto,</li>
+<li>powierzchnię mieszkania (m²),</li>
+<li>planowany <strong>rok i kwartał</strong> transakcji.</li>
+</ul>
+<p>Aplikacja przewiduje <strong>cenę transakcyjną mieszkania</strong> na podstawie danych historycznych i trendów rynkowych.</p>
+<p>Zastosowane techniki:</p>
+<ul>
+<li><strong>Uczenie maszynowe:</strong></li>
+<li>regresja liniowa, drzewiaste modele regresyjne (XGBoost, LightGBM)</li>
+<li>
+<p>grid search i walidacja krzyżowa</p>
+</li>
+<li>
+<p><strong>Szeregi czasowe:</strong></p>
+</li>
+<li>analiza trendów kwartalnych</li>
+<li>
+<p>dekompozycja sezonowości</p>
+</li>
+<li>
+<p><strong>Feature engineering:</strong></p>
+</li>
+<li>
+<p>tworzenie zmiennych: kwartał, miasto, inflacja, rodzaj zabudowy, lokalizacja</p>
+</li>
+<li>
+<p><strong>Preprocessing danych:</strong></p>
+</li>
+<li>czyszczenie danych z REAS, NBP i otodom.pl (lub podobnych źródeł)</li>
+<li>one-hot encoding dla miast i kwartalnych zmiennych czasowych</li>
+</ul>
+<p><strong>Technologie:</strong></p>
+<ul>
+<li><strong>Python</strong> (pandas, scikit-learn)</li>
+<li><strong>Streamlit</strong> – frontend aplikacji (interfejs użytkownika)</li>
+<li><strong>Jupyter Notebook</strong> – eksploracja danych i trenowanie modeli</li>
+<li><strong>Excel</strong> – weryfikacja danych i analiza wstępna</li>
+</ul>
 <p><a href="https://github.com/Himap-3478/Ceny-mieszka-" target="_blank" style="
   display: inline-flex;
   align-items: center;

@@ -641,14 +641,22 @@
 
 <h1 id="nasz-gpt">Nasz GPT</h1>
 <p>Utworzone: <strong>03.04.2025</strong></p>
-<p>Aplikacja to mój odpowiednik Chata GPT. Prócz bycia chatem GPT, tutaj można dodatkowo zmieniać osobowość. Do tego przelicza koszt użycia z dolarów na złotówk, przez przeliczanie użytych tokenów.</p>
-<p><strong>Umiejętności:</strong></p>
+<p>Opis projektu:</p>
+<p>Stworzyłem własną wersję interaktywnego chatu GPT, rozszerzoną o możliwość dynamicznej <strong>zmiany osobowości modelu</strong> oraz <strong>kalkulację kosztów użycia API w czasie rzeczywistym</strong>, przeliczanych z dolarów na złotówki. Aplikacja ma charakter edukacyjno-narzędziowy i może pełnić rolę osobistego asystenta lub narzędzia demonstracyjnego.</p>
+<p>Funkcjonalności:</p>
 <ul>
-<li>streamlit</li>
-<li>dotenv</li>
-<li>pathlib</li>
-<li>Open AI</li>
-<li>json</li>
+<li>🧠 <strong>Chat GPT</strong> – interfejs do rozmowy z modelem językowym (OpenAI API).</li>
+<li>🎭 <strong>Zmiana osobowości</strong> – użytkownik może wybrać „charakter” asystenta (np. mentor, analityk, komik, nauczyciel).</li>
+<li>💰 <strong>Kalkulator kosztów tokenów</strong> – aplikacja liczy liczbę zużytych tokenów w każdej rozmowie i przelicza koszt z USD na PLN.</li>
+<li>🧾 <strong>Historia rozmów</strong> – zapisuje konwersacje i ich koszt, umożliwiając analizę lub eksport.</li>
+<li>🌐 <strong>Obsługa wielu modeli</strong> – GPT-4, z dynamiczną zmianą modelu w trakcie działania.</li>
+</ul>
+<p>Wykorzystane technologie:</p>
+<ul>
+<li><strong>Frontend</strong>: Streamlit</li>
+<li><strong>Backend</strong>: Python (<code>openai</code>, <code>requests</code>)</li>
+<li><strong>API</strong>: OpenAI API (chat completions)</li>
+<li><strong>Inne</strong>: <code>pandas</code> (log rozmów), <code>JSON</code> (zapis historii)</li>
 </ul>
 <p><a href="https://github.com/Himap-3478/GPT" target="_blank" style="
   display: inline-flex;

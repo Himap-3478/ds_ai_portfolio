@@ -641,41 +641,97 @@
 
 <h1 id="analiza-danych-wyborow-do-senatu-iii-rp">Analiza danych wyborów do Senatu III RP</h1>
 <p>utworzone: <strong>22.05.2025</strong></p>
-<p>W ramach własnej analizy danych prześledziłem wyniki polskich wyborów do Senatu na przestrzeni lat, koncentrując się na trzech kluczowych aspektach:</p>
-<p>🔹 Procent głosów oddanych na poszczególne partie polityczne w danym roku
-🔹 Rozkład mandatów w Sejmie i jego zależność od systemu wyborczego
-🔹 Poglądy polityczne partii i jak odpowiadają one preferencjom głosujących</p>
-<p><strong>Wnioski:</strong></p>
+<p>Cel projektu:</p>
+<p>Projekt miał na celu analizę danych z wyborów do Senatu RP z ostatnich 30 lat, by zrozumieć:</p>
 <ul>
-<li>Najwięcej bo 10 razy Mniejszość Niemiecka startowała do polskiego Senatu.</li>
-<li>Najwięcej partii bo aż 56 miało poglądy centroprawicowe, na drugim miejscu są partie o poglądach centrum (42), podium zamykają partie o poglądach prawicowych (41).</li>
-<li>Rekord posiadanych mandatów należy do SLD-UP w latach 2001-2005 (75 mandatów). </li>
-<li>Najdłużej w Senacie była partia: Polskie Stronnictwo Ludowe bo aż 8 kadencji. </li>
-<li>Od 2001 roku w Senacie obecne są dwie największe partie polityczne: Platforma Obywatelska oraz Prawo i Sprawiedliwość. </li>
-<li>Najwięcej partii było w Senacie w latach 1991-1993 bo aż 28 partii i komitetów wyborczych. A najmniej w 2007-2011 (3 partii/komitety). </li>
-<li>Od 2007 do 2023 roku w Senacie rządziły praktycznie tylko dwie partie: PO oraz PIS.</li>
-<li>Największe poparcie miało Prawo i Sprawiedliwość w roku 2019 (44,56%), a najmniejsze miała partia Zjednoczeni w 1991 roku (0,06%).</li>
-<li>W 2007 roku centroprawica cieszyła się najwyższym - 81,87% - poparciem. </li>
-<li>Najgorsze poparcie miały poglądy centrolewicowe w 2001 i 2007 roku (0%). </li>
-<li>Prawica od 2007 do 2019 praktycznie nie istniała w polski Senacie, podobnie jak centrum od 2005 do 2007.</li>
-<li>Najlepsze i najgorsze wyniki poszczególnych poglądów:</li>
-<li>prawica: najlepszy: rok 1991 - 17,02%; najgorszy: rok 2007 - 0,93%</li>
-<li>centroprawica: najlepszy: rok 2007 - 81,87%; najgorszy: rok 2001 - 15,71%</li>
-<li>centrum: najlepszy: rok 2001 - 27,64%; najgorszy: rok 2007 - 0,33%</li>
-<li>centrolewica: najlepszy: rok 2019 - 39,53%; najgorszy: rok 2001 - 0%</li>
-<li>lewica: najlepszy: rok 2001 - 49,65%; najgorszy: rok 2019 - 2,46%</li>
+<li>jak zmieniało się poparcie społeczne dla partii politycznych,</li>
+<li>jak system większościowy wpływał na rozkład mandatów,</li>
+<li>jak odpowiadały wyniki wyborów preferencjom ideologicznym Polaków.</li>
 </ul>
-<p><strong>Umiejętności:</strong>
-* Python
-* pandas
-* matplotlib 
-* seaborn 
-* numpy
-* plotly
-* sklearn
-* Wizualizacja
-* Umiejętność wyciągania trafnych wniosków
-* Analityczne i krytyczne myślenie</p>
+<p>Zakres analizy:</p>
+<ul>
+<li>Zebranie i standaryzacja danych z wyborów do Senatu z lat 1991–2023</li>
+<li>Przypisanie partii do kategorii ideologicznych (prawica, centroprawica, centrum, centrolewica, lewica)</li>
+<li>Porównanie udziału głosów i mandatów partii w każdej kadencji</li>
+<li>Analiza wpływu systemu wyborczego (większościowego) na reprezentację mniejszych ugrupowań</li>
+<li>Wyodrębnienie trendów dotyczących dominacji politycznej i polaryzacji sceny senackiej</li>
+</ul>
+<p>Wnioski</p>
+<p>Struktura i udział partii:</p>
+<ul>
+<li><strong>Rekordzistą startów do Senatu</strong> jest <em>Mniejszość Niemiecka</em> – 10 razy.</li>
+<li>
+<p>Najwięcej partii o poglądach:</p>
+</li>
+<li>
+<p><strong>Centroprawicowych</strong> – 56 ugrupowań</p>
+</li>
+<li><strong>Centrowych</strong> – 42</li>
+<li><strong>Prawicowych</strong> – 41</li>
+</ul>
+<p>Mandaty i dominacja polityczna:</p>
+<ul>
+<li><strong>Rekord mandatów</strong>: <em>SLD-UP (2001–2005)</em> – 75 mandatów.</li>
+<li>Najdłuższa obecność: <em>Polskie Stronnictwo Ludowe</em> – 8 kadencji.</li>
+<li>Od 2001 roku: <strong>PO i PiS nieprzerwanie obecne w Senacie.</strong></li>
+</ul>
+<p>Zmienność polityczna:</p>
+<ul>
+<li><strong>Najwięcej partii w Senacie</strong>: kadencja 1991–1993 (28 partii/komitetów)</li>
+<li><strong>Najmniej</strong>: kadencja 2007–2011 (tylko 3 ugrupowania)</li>
+<li>Od 2007 do 2023 scena senacka <strong>zdominowana przez PO i PiS</strong></li>
+</ul>
+<p>Preferencje ideologiczne społeczeństwa:</p>
+<table>
+<thead>
+<tr>
+<th>Poglądy</th>
+<th>Najlepszy wynik</th>
+<th>Najgorszy wynik</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Prawica</strong></td>
+<td>17,02% (1991)</td>
+<td>0,93% (2007)</td>
+</tr>
+<tr>
+<td><strong>Centroprawica</strong></td>
+<td>81,87% (2007)</td>
+<td>15,71% (2001)</td>
+</tr>
+<tr>
+<td><strong>Centrum</strong></td>
+<td>27,64% (2001)</td>
+<td>0,33% (2007)</td>
+</tr>
+<tr>
+<td><strong>Centrolewica</strong></td>
+<td>39,53% (2019)</td>
+<td>0% (2001, 2007)</td>
+</tr>
+<tr>
+<td><strong>Lewica</strong></td>
+<td>49,65% (2001)</td>
+<td>2,46% (2019)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Insight:</strong> System większościowy faworyzuje silne bloki partyjne – od 2007 roku mniejsze partie niemal całkowicie zniknęły z Senatu. Lewica, mimo historycznie wysokich wyników (2001), <strong>zanikła po 2011 roku</strong>. Centroprawica miała rekordowe poparcie (81%) w 2007 r., ale jej siła w Senacie ulega fluktuacji.</p>
+<p>Technologie i narzędzia:</p>
+<ul>
+<li><strong>Python (pandas, matplotlib, seaborn)</strong> – analiza danych, wykresy</li>
+<li><strong>Jupyter Notebook</strong> – narracja i prezentacja analizy</li>
+<li><strong>Excel</strong> – standaryzacja danych wejściowych</li>
+</ul>
+<p>Umiejętności zaprezentowane:</p>
+<ul>
+<li>Praca z danymi historycznymi i klasyfikacją ideologiczną</li>
+<li>Identyfikacja trendów w systemie większościowym (vs proporcjonalnym)</li>
+<li>Tworzenie syntetycznych wizualizacji wyników politycznych</li>
+<li>Porównawcza analiza wyborcza z elementami socjologicznymi i politologicznymi</li>
+</ul>
 <p><a href="Senat.ipynb" class="md-button md-button--primary">Pobierz Notebook</a></p>
 <p><iframe
     id="content"

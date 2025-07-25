@@ -532,6 +532,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Matejko
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -543,6 +556,34 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#opis-projektu" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Opis projektu:
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -622,6 +663,23 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#opis-projektu" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Opis projektu:
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -641,23 +699,29 @@
 
 <h1 id="matejko">Matejko</h1>
 <p>Utworzono: <strong>29.04.2025</strong></p>
-<p>Zadaniem aplikacji jest <strong>generowanie kolorowanek i opowiadań</strong>. Użytkownik wpisuje temat kolorowanki. Następnie AI podaje kilka tematów, z których użytkownik wybiera jeden oraz wybiera ilość kolorowanek. Po kliknięciu przycisku <strong>"Generuj kolorowanki"</strong> AI tworzy kolorowanki na podany temat i w odpowiedniej ilości. Jest także możliwośc pobrania i wydrukowania kolorowanki, dzięki przyciskowi <strong>Pobierz kolorowankę</strong>. Użytkownik może także za pomocą przycisku <strong>"Generuj opowiadanie"</strong> polecić sztucznej inteligencji wygenerowanie krótkiego opowiadania do wybranego tematu. Celem aplikacji jest zapewnienie dzieciom zajęcia na deszczowe lub zimowe dni. </p>
-<p><strong>Adresaci:</strong>
-* Rodzice
-* Dzieci
-* Nauczyciele
-* Opiekunowie dzieci</p>
-<p><strong>Umiejętności:</strong></p>
+<h3 id="opis-projektu">📌 <strong>Opis projektu:</strong></h3>
+<p>Stworzyłem interaktywną aplikację wykorzystującą sztuczną inteligencję do generowania <strong>kolorowanek i opowiadań na wybrany temat</strong>. Celem projektu było stworzenie narzędzia, które wspiera rozwój wyobraźni dzieci i zapewnia kreatywną rozrywkę podczas zimowych lub deszczowych dni – zarówno w domu, jak i w szkole.</p>
+<p>Funkcjonalności aplikacji:</p>
 <ul>
-<li>Open AI</li>
-<li>Python</li>
-<li>dotenv</li>
-<li>LLM</li>
-<li>streamlit</li>
-<li>BytesIO</li>
-<li>requests</li>
-<li>json</li>
-<li>Kreatywność</li>
+<li>🔎 <strong>Tematyka kolorowanek</strong>: użytkownik wpisuje własny temat (np. „smoki”, „las”, „dinozaury”), a AI podpowiada listę kilku precyzyjnych wariantów.</li>
+<li>🎨 <strong>Generowanie grafik</strong>: po wybraniu tematu i liczby kolorowanek, AI generuje czarno-białe ilustracje do wydruku (poprzez DALL·E).</li>
+<li>📄 <strong>Tworzenie opowiadań</strong>: użytkownik może wygenerować krótkie opowiadanie do wybranej kolorowanki (np. bajka, przygoda, opis sytuacji).</li>
+<li>📥 <strong>Pobieranie i druk</strong>: każdą kolorowankę można łatwo pobrać jako plik PNG.</li>
+<li>🧒 <strong>Dostosowanie do dzieci</strong>: interfejs jest prosty, kolorowy i bezpieczny – gotowy do użycia przez dzieci lub z pomocą dorosłych.</li>
+</ul>
+<p>Grupa docelowa:</p>
+<ul>
+<li>Rodzice</li>
+<li>Nauczyciele i wychowawcy</li>
+<li>Dzieci (z pomocą dorosłych)</li>
+<li>Pracownicy świetlic, bibliotek i przedszkoli</li>
+</ul>
+<p>Wykorzystane technologie:</p>
+<ul>
+<li><strong>Frontend</strong>: <code>Streamlit</code> </li>
+<li><strong>Backend AI</strong>: <code>OpenAI API</code> (do tekstów i tematów), <code>DALL·E</code> (do grafik)</li>
+<li><strong>PDF/obrazki</strong></li>
+<li><strong>Obsługa plików</strong>: generowanie i eksport do formatu <code>.png</code></li>
 </ul>
 <p><a href="https://github.com/Himap-3478/Kolorowanki" target="_blank" style="
   display: inline-flex;

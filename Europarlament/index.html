@@ -641,34 +641,90 @@
 
 <h1 id="analiza-danych-polskich-wyborow-do-europarlamentu">Analiza Danych polskich wyborów do Europarlamentu</h1>
 <p>utworzone: <strong>27.05.2025</strong></p>
-<p>W ramach własnej analizy danych prześledziłem wyniki polskich wyborów do Europarlamentu na przestrzeni lat, koncentrując się na trzech kluczowych aspektach:</p>
-<p>🔹 Procent głosów oddanych na poszczególne partie polityczne w danym roku
-🔹 Rozkład mandatów w Parlaemncie Europejskim i jego zależność od systemu wyborczego
-🔹 Poglądy polityczne partii i jak odpowiadają one preferencjom głosujących</p>
-<p><strong>Wnioski:</strong></p>
-<p>*Najlepsze i najgorzesz wyniki danych poglądów:
-- prawica: najlepszy: rok 2014 - 47,47%; najgorszy: rok 2019 - 4,63%
-- centroprawica: najlepszy: rok 2015 - 49,07%; najgorszy: rok 2004 - 24,10%
-- centrum: najlepszy: rok 2004 - 18,11%; najgorszy: rok 2019 - 0,54%
-- centrolewica: najlepszy: rok 2023 - 38,47%; najgorszy: do roku 2014 - 0%
-- lewica: najlepszy: rok 2004 - 27,26%; najgorszy: rok 2024 - 6,03%
-* Jeżeli chodzi o najlepsze wyniki partii politycznych to największe poparcie miało Prawo i Sprawiedliwość w roku 2019 (45,38%), a najmniejszym poparciem cieszyła się Socjaldemokracja Polska w 2004 roku (5,33%).
-* Rekord posiadanych mandatów należy do Prawa i Sprawiedliwości w latach 2019-2024 (27 mandatów).
-* Najmniej mandatów (3) miały: Socjaldemokracja Polska (2004), Polskie Stronnictwo Ludowe (2009), Wiosna (2019), Trzecia Droga i Lewica (2024).
-* Najdłużej w Europarlamencie była partia: Platforma Obywatelska oraz Prawo i Sprawiedliwość bo aż 5 kadencji. 
-* W latach 2014-2019 liczba mandatów PO i PIS była równa i wynosiła po 19 mandatów. 
-* Najwięcej polskich partii w Europarlamencie było w latach 2004-2009 bo, aż 8. Za to najmniej w latach 2019-2024 bo tylko 3 partie.</p>
-<p><strong>Umiejętności:</strong>
-* Python
-* pandas
-* matplotlib 
-* seaborn 
-* numpy
-* plotly
-* sklearn
-* Wizualizacja
-* Umiejętność wyciągania trafnych wniosków
-* Analityczne i krytyczne myślenie</p>
+<p>Cel projektu:</p>
+<p>Celem analizy było zbadanie ewolucji polskiej sceny politycznej w kontekście wyborów do Parlamentu Europejskiego – pod kątem:</p>
+<ul>
+<li>wyników procentowych partii politycznych,</li>
+<li>rozkładu mandatów w poszczególnych kadencjach,</li>
+<li>zmieniającego się układu sił ideologicznych (lewa–prawa strona sceny politycznej),</li>
+<li>wpływu systemu wyborczego na reprezentację partii.</li>
+</ul>
+<p>Zakres analizy:</p>
+<ul>
+<li>Zebranie danych z lat 2004–2024 (wszystkie wybory PE po przystąpieniu Polski do UE)</li>
+<li>Przypisanie partii do bloków ideologicznych: prawica, centroprawica, centrum, centrolewica, lewica</li>
+<li>Analiza zmian w poparciu społecznym dla tych bloków</li>
+<li>Zestawienie liczby mandatów zdobywanych przez partie w poszczególnych kadencjach</li>
+<li>Ocena wpływu systemu proporcjonalnego na rozkład sił w PE</li>
+</ul>
+<p>Kluczowe wnioski:</p>
+<p>Wyniki partii politycznych:</p>
+<ul>
+<li>Najwyższe poparcie: <strong>Prawo i Sprawiedliwość (2019)</strong> – 45,38% głosów</li>
+<li>Najniższe poparcie: <strong>Socjaldemokracja Polska (2004)</strong> – 5,33%</li>
+<li>Rekord mandatów: <strong>PiS (2019–2024)</strong> – 27 mandatów</li>
+<li>Najmniej mandatów (3): m.in. PSL (2009), Wiosna (2019), Trzecia Droga i Lewica (2024)</li>
+</ul>
+<p>Reprezentacja i ciągłość:</p>
+<ul>
+<li>Tylko <strong>Platforma Obywatelska i Prawo i Sprawiedliwość</strong> były reprezentowane we wszystkich 5 kadencjach.</li>
+<li>W kadencji 2014–2019 oba ugrupowania miały po równo – <strong>19 mandatów</strong>.</li>
+</ul>
+<p>Zmienność systemu partyjnego:</p>
+<ul>
+<li>Największa różnorodność (8 partii): <strong>kadencja 2004–2009</strong></li>
+<li>Największa koncentracja (3 partie): <strong>kadencja 2019–2024</strong></li>
+</ul>
+<p>Poglądy polityczne – skrajności i trendy:</p>
+<table>
+<thead>
+<tr>
+<th>Poglądy</th>
+<th>Najlepszy wynik</th>
+<th>Najgorszy wynik</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Prawica</strong></td>
+<td>47,47% (2014)</td>
+<td>4,63% (2019)</td>
+</tr>
+<tr>
+<td><strong>Centroprawica</strong></td>
+<td>49,07% (2015 – wybory krajowe?)</td>
+<td>24,10% (2004)</td>
+</tr>
+<tr>
+<td><strong>Centrum</strong></td>
+<td>18,11% (2004)</td>
+<td>0,54% (2019)</td>
+</tr>
+<tr>
+<td><strong>Centrolewica</strong></td>
+<td>38,47% (2023)</td>
+<td>0% (do 2014)</td>
+</tr>
+<tr>
+<td><strong>Lewica</strong></td>
+<td>27,26% (2004)</td>
+<td>6,03% (2024)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Insight:</strong> Pomimo przewagi centroprawicy i prawicy w ostatnich latach, centrolewica zyskała istotne poparcie w 2023 r. Lewica notuje konsekwentny spadek od 2004 r.</p>
+<p>Technologie i narzędzia:</p>
+<ul>
+<li><strong>Python (pandas, seaborn, matplotlib)</strong> – analiza danych, wykresy</li>
+<li><strong>Jupyter Notebook</strong> – interaktywna prezentacja analizy</li>
+</ul>
+<p>Umiejętności zaprezentowane:</p>
+<ul>
+<li>Przetwarzanie danych politycznych i statystycznych</li>
+<li>Analiza trendów ideologicznych i porównawcza analiza poparcia</li>
+<li>Komunikacja danych za pomocą wizualizacji</li>
+<li>Wnioskowanie z danych społecznych i politycznych</li>
+</ul>
 <p><a href="Europarlament_pl.ipynb" class="md-button md-button--primary">Pobierz Notebook</a></p>
 <p><iframe
     id="content"

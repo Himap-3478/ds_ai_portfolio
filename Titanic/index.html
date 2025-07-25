@@ -509,6 +509,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Titanic
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -520,6 +533,34 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cel-projektu" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎯 Cel projektu:
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -622,6 +663,23 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cel-projektu" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎯 Cel projektu:
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -641,28 +699,38 @@
 
 <h1 id="analiza-danych-eda-titanica-eksploracja-domenowa">Analiza Danych EDA Titanica: Eksploracja Domenowa</h1>
 <p>utworzone: <strong>28.01.2025</strong></p>
-<p>Zapraszam do zapoznania się z projektem mojego autorstwa, który przenosi nas w świat analizy danych ostatniego rejsu Titanica za pomocą eksploracji domenowej (EDA). W tym projekcie znajdziesz mnóstwo trafnych wniosków i ciekawych obserwacji, które rzucają nowe światło na te najbardziej znaną tragedię morską. </p>
-<p><strong>Wnioski:</strong></p>
+<h3 id="cel-projektu">🎯 <strong>Cel projektu:</strong></h3>
+<p>Celem analizy było zrozumienie, jakie czynniki mogły mieć wpływ na przeżycie pasażerów słynnego rejsu RMS Titanic. Skoncentrowałem się na eksploracji danych demograficznych, klasowych i logistycznych w celu wyciągnięcia wartościowych wniosków oraz wizualizacji statystycznych zależności.</p>
+<p>Zakres analizy:</p>
 <ul>
-<li>Najwięcej osób wyruszyło w rejs w porcie Southampton, następnie w Cherbourg, a najmniej w Queenstown. </li>
-<li>Najwięcej osób było w 3 klasie, a najmniej w drugiej. </li>
-<li>Więcej osób zginęło niż przeżyło. W większości były to osoby młode i mężczyżni.</li>
-<li>Zdecydowana większość pasażerów to osoby mlode. Większość osób na pokładzie miała mniej niż 30 lat. Były pojedyncze osoby mające ponad 66 lat</li>
-<li>Większość osób na pokładzie płynęła bez rodziny lub/i małżonka.</li>
-<li>Szalupy były nierównomiernie napełnione w niektórych było kilkanaście osób, a w innych tylko kilka osób. Co wynikało z tego że szalup ratunkowych było tylko 27, czyli o wiele za mało aby uratować chociaż połowę pasażerów.</li>
+<li>Czyszczenie i analiza jakości danych</li>
+<li>Eksploracja zmiennych: wiek, płeć, klasa, port zaokrętowania, liczba członków rodziny</li>
+<li>Wykresy: heatmapy, histogramy, wykresy słupkowe, rozkłady przeżywalności</li>
+<li>Weryfikacja hipotez nt. czynników wpływających na przeżycie</li>
 </ul>
-<p><strong>Umiejętności:</strong></p>
+<p>Najciekawsze wnioski:</p>
 <ul>
-<li>Jupyter Notebook</li>
-<li>SQL </li>
-<li>EDA</li>
-<li>seaborn</li>
-<li>matplotlib</li>
-<li>Markdown</li>
-<li>Analiza danych</li>
-<li>Wizualizacja</li>
-<li>Analityczne i krytyczne myślenie</li>
-<li>Wyciąganie logicznych wniosków</li>
+<li><strong>Port zaokrętowania</strong>: Najwięcej pasażerów wsiadło w Southampton, najmniej w Queenstown.</li>
+<li><strong>Klasa podróży</strong>: Dominowała 3. klasa, co koreluje z niższym wskaźnikiem przeżycia.</li>
+<li><strong>Śmiertelność</strong>: Więcej pasażerów zginęło niż przeżyło – najczęściej byli to <strong>młodzi mężczyźni z niższych klas</strong>.</li>
+<li><strong>Wiek</strong>: Większość pasażerów miała mniej niż 30 lat; osoby starsze stanowiły mniejszość.</li>
+<li><strong>Rodzina na pokładzie</strong>: Zdecydowana większość pasażerów podróżowała samotnie lub bez członków rodziny.</li>
+<li><strong>Szalupy ratunkowe</strong>: Tylko 27 szalup – zbyt mało, by uratować wszystkich. Szalupy były <strong>nierównomiernie napełnione</strong> – niektóre zawierały zaledwie kilka osób, co mogło wynikać z paniki i braku przeszkolenia załogi.</li>
+</ul>
+<p><strong>Insight</strong>: Pasażerowie płci żeńskiej i dzieci z wyższych klas mieli wyraźnie większe szanse przeżycia. To potwierdza zasadę "kobiety i dzieci pierwsi", choć nie została ona egzekwowana jednolicie.</p>
+<p>Technologie i narzędzia:</p>
+<ul>
+<li><strong>Python</strong> – eksploracja danych</li>
+<li><strong>Pandas, NumPy</strong> – przygotowanie i manipulacja danymi</li>
+<li><strong>Seaborn, Matplotlib</strong> – wykresy i heatmapy</li>
+<li><strong>Jupyter Notebook</strong> – prezentacja analizy i wniosków</li>
+</ul>
+<p>Umiejętności zaprezentowane:</p>
+<ul>
+<li>Czyszczenie i eksploracja danych (EDA)</li>
+<li>Wizualizacja danych i rozkładów</li>
+<li>Analiza zależności między zmiennymi (np. klasa a przeżycie)</li>
+<li>Wnioskowanie na podstawie danych historycznych</li>
 </ul>
 <p><a href="Titanic.ipynb" class="md-button md-button--primary">Pobierz Notebook</a></p>
 <p><iframe

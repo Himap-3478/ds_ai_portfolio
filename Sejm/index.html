@@ -625,36 +625,87 @@
 
 <h1 id="analiza-danych-wyborow-do-sejmu-iii-rp">Analiza danych wyborów do Sejmu III RP</h1>
 <p>utworzone: <strong>19.05.2025</strong></p>
-<p>W ramach własnej analizy danych prześledziłem wyniki polskich wyborów do Sejmu na przestrzeni lat, koncentrując się na trzech kluczowych aspektach:</p>
-<p>🔹 Procent głosów oddanych na poszczególne partie polityczne w danym roku
-🔹 Rozkład mandatów w Sejmie i jego zależność od systemu wyborczego
-🔹 Poglądy polityczne partii i jak odpowiadają one preferencjom głosujących</p>
-<p><strong>Wnioski:</strong></p>
+<p>Cel projektu:</p>
+<p>Celem analizy było zbadanie, jak zmieniała się struktura polityczna Sejmu w Polsce od 1991 roku – z uwzględnieniem:</p>
 <ul>
-<li>Rekord posiadanych mandatów należy do Prawa i Sprawiedliwości w latach 2015-2019 oraz 2019-2023 (235 mandatów). </li>
-<li>Najdłużej w Sejmie była partia: Polskie Stronnictwo Ludowe bo aż 10 kadencji (Od 2023 do 2025 skład Trzeciej Drogi), zaraz za nią jest Mniejszość Niemiecka, która była w Sejmie 9 kadencji. </li>
-<li>Od 2001 roku w Sejmie obecne są dwie największe partie polityczne: Platforma (Koalicja) Obywatelska oraz Prawo i Sprawiedliwość. </li>
-<li>Najwięcej partii było w Sejmie w latach 1991-1993 bo aż 28 partii i koitetów wyborczych. A najmniej w obecnej kadencji (5 partii/koalicji).</li>
-<li>Największe poparcie miało Prawo i Sprawiedliwość w roku 2019 (43,59%), a najmniejsze poparcie miał Sojusz Kobiet Przeciw Trudnościom Życia w 1991 roku (0,02%)</li>
-<li>W 2015 roku centroprawica cieszyła się najwyższym - 59% - poparciem. Najgorsze poparcie miały poglądy centrolewicowe w 2011 roku (0%). Centrum od 1997 praktycznie nie istnieje na scenie politycznej, podobnie jak centrolewica od 2005 do 2010.</li>
-<li>Najlepsze i najgorsze wyniki poszczególnych poglądów:</li>
-<li>prawica: najlepszy: rok 2005 - 38,28%; najgorszy: rok 2015 - 4,88%</li>
-<li>centroprawica: najlepszy: rok 2015 - 59,39%; najgorszy: rok 2001 - 21,66%</li>
-<li>centrum: najlepszy: rok 1991 - 10,45%; najgorszy: rok 2011 - 0,19%</li>
-<li>centrolewica: najlepszy: rok 2023 - 30,69%; najgorszy: rok 2011 - 0%</li>
-<li>lewica: najlepszy: rok 2001 - 51,34%; najgorszy: rok 2023 - 8,72%</li>
+<li>poparcia dla partii politycznych,</li>
+<li>przydziału mandatów (w kontekście systemu wyborczego),</li>
+<li>ewolucji preferencji ideologicznych społeczeństwa.</li>
 </ul>
-<p><strong>Umiejętności:</strong>
-* Python
-* pandas
-* matplotlib 
-* seaborn 
-* numpy
-* plotly
-* sklearn
-* Wizualizacja
-* Umiejętność wyciągania trafnych wniosków
-* Analityczne i krytyczne myślenie</p>
+<p>Zakres analizy:</p>
+<ul>
+<li>Zebranie i oczyszczenie danych z wyborów parlamentarnych (10 kadencji)</li>
+<li>Analiza procentowego poparcia i liczby mandatów zdobytych przez partie polityczne</li>
+<li>Przypisanie partii do kategorii ideologicznych (prawica, centroprawica, centrum, centrolewica, lewica)</li>
+<li>Ocena wpływu systemu d’Hondta na rzeczywistą reprezentację ugrupowań</li>
+<li>Wizualizacja trendów: liczby partii w Sejmie, poparcia społecznego, siły mandatowej</li>
+</ul>
+<p>Kluczowe wnioski:</p>
+<p>Struktura Sejmu:</p>
+<ul>
+<li><strong>Rekord mandatów:</strong> <em>Prawo i Sprawiedliwość</em> (2015–2023) – 235 mandatów</li>
+<li><strong>Najdłuższa obecność:</strong> <em>PSL</em> – nieprzerwanie od 10 kadencji (w tym jako część Trzeciej Drogi)</li>
+<li><strong>Największy rozrzut partyjny:</strong> <em>kadencja 1991–1993</em> – aż <strong>28 partii i komitetów wyborczych</strong></li>
+<li><strong>Największa koncentracja:</strong> <em>kadencja 2023–2027</em> – tylko 5 głównych bloków</li>
+</ul>
+<p>Trendy polityczne:</p>
+<ul>
+<li>Od 2001 roku dominacja <strong>PiS</strong> i <strong>PO/KO</strong> – tylko te dwa ugrupowania były stale obecne.</li>
+<li>Największe poparcie dla partii: <strong>PiS (2019)</strong> – 43,59%</li>
+<li>Najmniejsze: <strong>Sojusz Kobiet Przeciw Trudnościom Życia (1991)</strong> – 0,02% (!)</li>
+</ul>
+<p>Zachowania ideologiczne wyborców:</p>
+<table>
+<thead>
+<tr>
+<th>Poglądy</th>
+<th>Najlepszy wynik</th>
+<th>Najgorszy wynik</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Prawica</strong></td>
+<td>38,28% (2005)</td>
+<td>4,88% (2015)</td>
+</tr>
+<tr>
+<td><strong>Centroprawica</strong></td>
+<td>59,39% (2015)</td>
+<td>21,66% (2001)</td>
+</tr>
+<tr>
+<td><strong>Centrum</strong></td>
+<td>10,45% (1991)</td>
+<td>0,19% (2011)</td>
+</tr>
+<tr>
+<td><strong>Centrolewica</strong></td>
+<td>30,69% (2023)</td>
+<td>0% (2011)</td>
+</tr>
+<tr>
+<td><strong>Lewica</strong></td>
+<td>51,34% (2001)</td>
+<td>8,72% (2023)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Insight:</strong> Polityczne centrum w Polsce niemal zniknęło po 1997 roku. Od 2005 r. scena jest spolaryzowana: dominacja centroprawicy, a <strong>lewica notuje stały spadek</strong> z historycznego szczytu 51% do zaledwie 8,7% w 2023.</p>
+<p>Technologie i narzędzia:</p>
+<ul>
+<li><strong>Python (pandas, seaborn, matplotlib)</strong> – analiza i wizualizacje danych</li>
+<li><strong>Excel</strong> – obróbka danych źródłowych</li>
+<li><strong>Jupyter Notebook</strong> – dokumentacja i narracja analizy</li>
+</ul>
+<p>Umiejętności pokazane w projekcie:</p>
+<ul>
+<li>Analiza danych politycznych na przestrzeni wielu lat (longitudinal data analysis)</li>
+<li>Zastosowanie klasyfikacji ideologicznej do analizy społecznej</li>
+<li>Prezentowanie złożonych danych w czytelnej formie</li>
+<li>Przekształcanie danych statystycznych w konkretne wnioski polityczne</li>
+<li>Znajomość systemu wyborczego i jego wpływu na rozkład mandatów</li>
+</ul>
 <p><a href="Sejm.ipynb" class="md-button md-button--primary">Pobierz Notebook</a></p>
 <p><iframe
     id="content"

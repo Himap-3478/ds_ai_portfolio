@@ -486,6 +486,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Iris
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -497,6 +510,34 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cel-projektu" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎯 Cel projektu:
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -622,6 +663,23 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cel-projektu" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎯 Cel projektu:
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -641,23 +699,47 @@
 
 <h1 id="analiza-danych-irysow-eksploracja-domenowa">Analiza Danych Irysów: Eksploracja Domenowa</h1>
 <p>Utworzone: <strong>25.01.2025</strong></p>
-<p>Zapraszam do zapoznania się z projektem mojego autorstwa, który przenosi nas w świat analizy danych irysów za pomocą eksploracji domenowej (EDA). W tym projekcie znajdziesz mnóstwo trafnych wniosków i ciekawych obserwacji, które rzucają nowe światło na te piękne kwiaty. Przygotuj się na fascynującą podróż przez dane, która z pewnością wzbogaci Twoją wiedzę i zainspiruje do dalszych badań.</p>
-<p><strong>Wnioski:</strong></p>
+<h3 id="cel-projektu">🎯 <strong>Cel projektu:</strong></h3>
+<p>Celem projektu była eksploracja klasycznego zbioru danych <strong>Iris</strong>, obejmującego trzy gatunki kwiatów: <em>Setosa</em>, <em>Versicolor</em> i <em>Virginica</em>. Analiza miała na celu odkrycie zależności między zmiennymi (cechami fizycznymi) kwiatów oraz zrozumienie różnic pomiędzy gatunkami.</p>
+<p>Zakres analizy:</p>
 <ul>
-<li>Iris virginica: kiedy wzrasta długość płatka to wzrasta także długością kielicha. Jest to też największa odmiana Irysa</li>
-<li>Iris versicolor: kiedy wzrasta długość płatka, wzrasta długość kielicha i szerokość płatka. Gdy wzrasta szerokość kielicha to wzrasta szerokość płatka.</li>
-<li>Iris setosa: kiedy wzrasta szerokość kielicha, to wzrasta także długość kielicha. Jest to najmniejsza odmiana Irysa</li>
+<li>Wczytanie i wstępne oczyszczenie danych</li>
+<li>Analiza rozkładów zmiennych: długości i szerokości kielicha oraz płatka</li>
+<li>Obliczenie korelacji między cechami</li>
+<li>Wizualizacja danych za pomocą parplotów, heatmap i wykresów pudełkowych</li>
+<li>Wyciągnięcie obserwacji biologiczno-statystycznych dla każdego z gatunków</li>
 </ul>
-<p><strong>Umiejętności:</strong>
-* Jupyter Notebook
-* EDA
-* seaborn
-* matplotlib
-* Markdown
-* Analiza danych
-* Wizualizacja
-* Analityczne i krytyczne myślenie
-* Wyciąganie logicznych wniosków</p>
+<p>Najciekawsze wnioski:</p>
+<p><strong>Iris Virginica</strong> <em>(największy z kwiatów)</em>:</p>
+<ul>
+<li>Im dłuższy płatek, tym dłuższy kielich → <strong>silna dodatnia korelacja</strong></li>
+<li>Największe średnie wartości długości i szerokości wśród wszystkich gatunków</li>
+</ul>
+<p><strong>Iris Versicolor</strong>:</p>
+<ul>
+<li>Wraz z długością płatka rosną zarówno długość kielicha, jak i szerokość płatka</li>
+<li><strong>Szerokość kielicha wpływa na szerokość płatka</strong> – interesująca korelacja między "obwodami"</li>
+</ul>
+<p><strong>Iris Setosa</strong> <em>(najmniejszy gatunek)</em>:</p>
+<ul>
+<li>Wzrost szerokości kielicha wiąże się z większą długością kielicha</li>
+<li>Najniższe wartości cech fizycznych – dobrze odseparowane od pozostałych gatunków (widoczne na wykresach klastra)</li>
+</ul>
+<p><strong>Insight</strong>: Różnice między gatunkami są na tyle wyraźne, że można je rozpoznać nawet na podstawie prostych wykresów 2D. To tłumaczy, dlaczego ten zbiór jest tak często wykorzystywany do uczenia modeli klasyfikacyjnych.</p>
+<p>Technologie i narzędzia:</p>
+<ul>
+<li><strong>Python</strong> – eksploracja i analiza danych</li>
+<li><strong>Pandas, NumPy</strong> – manipulacja danymi</li>
+<li><strong>Seaborn, Matplotlib</strong> – wizualizacje</li>
+<li><strong>Jupyter Notebook</strong> – dokumentacja i narracja analizy</li>
+</ul>
+<p>Umiejętności zaprezentowane:</p>
+<ul>
+<li>Eksploracyjna analiza danych (EDA)</li>
+<li>Analiza korelacji między zmiennymi</li>
+<li>Tworzenie estetycznych i informatywnych wizualizacji</li>
+<li>Formułowanie precyzyjnych wniosków na podstawie danych liczbowych</li>
+</ul>
 <p><a href="irysy.ipynb" download class="md-button md-button--primary">Pobierz Notebook</a></p>
 <p><iframe
     id="content"

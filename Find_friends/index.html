@@ -440,6 +440,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Znajdź przyjaciół
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -451,6 +464,43 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#opis-projektu" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Opis projektu:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#funkcjonalnosci-aplikacji" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚙️ Funkcjonalności aplikacji:
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -622,6 +672,32 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#opis-projektu" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Opis projektu:
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#funkcjonalnosci-aplikacji" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚙️ Funkcjonalności aplikacji:
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -641,25 +717,52 @@
 
 <h1 id="find-friends">Find friends</h1>
 <p>Utworzone: <strong>18.04.2025</strong></p>
-<p>Stworzyłem aplikację, która analizuje odpowiedzi użytkownika na ankietę i przypisuje go do odpowiedniego klastra, wykorzystując wcześniej wytrenowany model uczenia maszynowego. Projekt został zrealizowany jako część kursu „Od zera do AI”.</p>
-<p><strong>Główne funkcje:</strong></p>
+<h3 id="opis-projektu">📌 <strong>Opis projektu:</strong></h3>
+<p>Stworzyłem aplikację opartą na modelu uczenia maszynowego, która analizuje odpowiedzi użytkownika z ankiety i przypisuje go do jednego z wcześniej zdefiniowanych klastrów. Każdy klaster reprezentuje <strong>profil użytkownika o określonym zestawie umiejętności, zainteresowań i doświadczenia zawodowego</strong>.</p>
+<h3 id="funkcjonalnosci-aplikacji">⚙️ <strong>Funkcjonalności aplikacji:</strong></h3>
 <ul>
-<li>Zbieranie danych: Dane wejściowe pochodzą z ankiety zawierającej pytania dotyczące umiejętności technicznych, zainteresowań i doświadczenia.</li>
-<li>Przetwarzanie danych: Dane zostały oczyszczone i przekształcone (m.in. standaryzacja, encoding).</li>
-<li>Klasteryzacja: Wykorzystałem algorytmy do podziału użytkowników na grupy o podobnych cechach.</li>
-<li>Dopasowywanie nowych użytkowników: Po wprowadzeniu danych, system przypisuje użytkownika do najbardziej pasującego klastra.</li>
-<li>Wizualizacja i opis klastra: Po klasyfikacji, aplikacja wyświetla nazwę klastra oraz jego charakterystykę.</li>
+<li>
+<p><strong>Zbieranie danych:</strong> ankieta online z pytaniami m.in. o znajomość technologii, narzędzi analitycznych, doświadczenie zawodowe, zainteresowania AI.</p>
+</li>
+<li>
+<p><strong>Przetwarzanie danych:</strong></p>
+</li>
+<li>czyszczenie i walidacja danych,</li>
+<li>kodowanie zmiennych kategorycznych (One-Hot / LabelEncoder),</li>
+<li>
+<p>standaryzacja cech (StandardScaler / MinMaxScaler).</p>
+</li>
+<li>
+<p><strong>Model uczenia maszynowego:</strong></p>
+</li>
+<li>klasteryzacja z wykorzystaniem algorytmu <strong>KMeans</strong> (lub innego, np. DBSCAN / HDBSCAN),</li>
+<li>
+<p>analiza silosu cech i metryki dystansu do walidacji modelu.</p>
+</li>
+<li>
+<p><strong>Predykcja:</strong></p>
+</li>
+<li>użytkownik otrzymuje wynik – przypisanie do klastra,</li>
+<li>
+<p>dodatkowo wyświetlana jest interpretacja cech klastra i jego reprezentantów.</p>
+</li>
+<li>
+<p><strong>Wizualizacja wyników:</strong></p>
+</li>
+<li>dashboard z opisem i cechami poszczególnych klastrów.</li>
 </ul>
-<p><strong>Umiejętności:</strong></p>
+<p>Zastosowane technologie:</p>
 <ul>
-<li>Python</li>
-<li>scikit-learn</li>
-<li>plotly</li>
-<li>json</li>
-<li>pandas</li>
-<li>GitHub</li>
-<li>Algorytmy</li>
-<li>LLM</li>
+<li><strong>Python</strong>: <code>pandas</code>, <code>numpy</code>, <code>scikit-learn</code>, <code>matplotlib</code>, <code>seaborn</code>, <code>streamlit</code></li>
+<li><strong>Uczenie maszynowe</strong>: klasteryzacja (<code>KMeans</code>, <code>silhouette_score</code>, <code>PCA</code>)</li>
+<li><strong>Preprocessing</strong>: <code>StandardScaler</code>, <code>OneHotEncoder</code></li>
+<li><strong>Aplikacja interfejsu użytkownika</strong>: <code>Streamlit</code></li>
+</ul>
+<p>Korzyści i zastosowania:</p>
+<ul>
+<li>Pomaga zrozumieć profil użytkownika na podstawie danych wejściowych</li>
+<li>Może służyć jako system rekomendacji kursów, ścieżek kariery lub ról zawodowych</li>
+<li>Pokazuje znajomość pipeline'u ML, od zbierania danych do zastosowania modelu</li>
 </ul>
 <p><a href="https://github.com/Himap-3478/Find_friends" target="_blank" style="
   display: inline-flex;

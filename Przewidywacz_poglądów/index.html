@@ -302,6 +302,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Przewidywacz poparcia w Polsce
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -313,6 +326,34 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#opis-projektu" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Opis projektu:
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -622,6 +663,23 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#opis-projektu" class="md-nav__link">
+    <span class="md-ellipsis">
+      📌 Opis projektu:
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -641,7 +699,43 @@
 
 <h1 id="aplikacja-predykcyjna-trendow-politycznych-w-polsce-1990obecnie">Aplikacja predykcyjna trendów politycznych w Polsce (1990–obecnie)</h1>
 <p>Utworzone: <strong>03.06.2025</strong></p>
-<p>Stworzyłem aplikację opartą na danych historycznych z wyborów parlamentarnych, prezydenckich oraz do Parlamentu Europejskiego w Polsce od 1990 roku, która przewiduje poziom poparcia dla różnych poglądów politycznych w zależności od wybranego roku. W projekcie zastosowałem modele uczenia maszynowego oraz analizę szeregów czasowych, by odwzorować i przewidywać zmiany preferencji społecznych na przestrzeni dekad.</p>
+<h3 id="opis-projektu">📌 <strong>Opis projektu:</strong></h3>
+<p>Stworzyłem aplikację predykcyjną opartą na danych historycznych z polskich wyborów <strong>parlamentarnych</strong>, <strong>prezydenckich</strong> oraz <strong>do Parlamentu Europejskiego</strong> od 1990 roku. Głównym celem było <strong>modelowanie i prognozowanie zmian poparcia społecznego dla różnych poglądów politycznych (lewica, centrolewica, centrum, centroprawica, prawica)</strong> w ujęciu czasowym.</p>
+<p>Zastosowane techniki:</p>
+<ul>
+<li><strong>Uczenie maszynowe (machine learning):</strong></li>
+<li>Regresja liniowa, modele ensemble (np. Random Forest, XGBoost)</li>
+<li>
+<p>Walidacja krzyżowa, tuning hiperparametrów</p>
+</li>
+<li>
+<p><strong>Analiza szeregów czasowych:</strong></p>
+</li>
+<li>Trendy, sezonowość i dekompozycja czasowa</li>
+<li>
+<p>Predykcja zmian poparcia w kolejnych latach</p>
+</li>
+<li>
+<p><strong>Eksploracja danych (EDA):</strong></p>
+</li>
+<li>Identyfikacja kluczowych korelacji i zależności (np. wpływ typu wyborów, udziału partii, preferencji regionalnych)</li>
+</ul>
+<p>Funkcje aplikacji:</p>
+<ul>
+<li>Interaktywne wybieranie roku i typu wyborów</li>
+<li>Dynamiczne prognozy poparcia dla poszczególnych ideologii politycznych</li>
+<li>Wizualizacja trendów i zmian preferencji w czasie</li>
+<li>Możliwość porównywania scenariuszy (np. lata 90. vs współczesność)</li>
+</ul>
+<p>Technologie:</p>
+<ul>
+<li><strong>Python</strong> (pandas, scikit-learn, matplotlib, seaborn, plotly)</li>
+<li><strong>Streamlit</strong> (do stworzenia aplikacji webowej)</li>
+<li><strong>Jupyter Notebook</strong> (eksperymenty i prototypowanie modeli)</li>
+<li><strong>Excel</strong> (do raportów porównawczych i walidacji danych historycznych)</li>
+</ul>
+<p>Wartość analityczna</p>
+<p>Projekt pokazuje, jak za pomocą danych historycznych i predykcji można symulować zmiany społecznych nastrojów politycznych i interpretować je w kontekście rzeczywistych wydarzeń. Jest to przykład połączenia <strong>analizy danych publicznych, modelowania predykcyjnego i komunikacji wyników w formie aplikacji</strong>.</p>
 <p><strong>Umiejętności:</strong>
 * ETL i EDA
 * streamlit
