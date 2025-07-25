@@ -2,6 +2,11 @@
 
 ## O mnie
 
-Nazywam się Rafał Okroj
+Nazywam się Rafał Okroj, a moją przygodę z Data Science rozpocząłem 1 stycznia 2025 roku. Po ukończeniu kursu **„Od zera do AI”**. Początkowo zainteresowałem się Data Science, ale bardzo szybko to analiza danych stała się moim głównym obszarem pasji i rozwoju.
 
-Moją drogę z Data science zacząłem 1.01.2025 jako postanowienie noworoczne. Dość szybko przerodziło się to w pasje, której poświęcam 2/3 godziny dziennie. Obecnie mam za sobą 13 projektów z zakresu analizy danych i Data science.
+Codziennie poświęcam 2–3 godziny na pracę z danymi – od eksploracji, przez wizualizację, po wyciąganie trafnych wniosków.
+Do tej pory zrealizowałem 13 autorskich projektów opartych na danych, które znajdziesz poniżej.
+W pracy stawiam na rzetelność analityczną, przejrzystość prezentacji i wartość biznesową wyników.
+
+Do tej pory zrealizowałem już **12 projektów** z zakresu **Data Science**, które znajdziesz poniżej.
+
