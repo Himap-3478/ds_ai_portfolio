@@ -22,7 +22,8 @@ nav:
           - "Wybory do Sejmu w III RP": Sejm/index.md
           - "Titanic": Titanic/index.md
           - "Iris": Irysy/index.md
-          - "Kursy Santander": Santander/index.md  
+          - "Kursy Santander": Santander/index.md 
+          - "Analiza mieszkań": Analiza_mieszkan/index.md
       - Data science:
           - "Znajdź przyjaciół": Find_friends/index.md
           - "GPT": GPT/index.md

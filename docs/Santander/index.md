@@ -47,7 +47,4 @@ Umiejętności praktyczne zdobyte w trakcie kursu:
 
 
 Pobierz plik:
-- [Funkcja "jeżeli"](doc/Funkcja.xlsx)
-- [Funkcja "wyszukaj pionowo"](doc/Funkcja1.xlsx)
-- [Power BI](doc/PowerBI.pbix)
-- [Tabela przestawna](doc/Tabela.xlsx)
+- [Power BI](doc/PowerBI.png)
