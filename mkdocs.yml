@@ -24,6 +24,7 @@ nav:
           - "Iris": Irysy/index.md
           - "Kursy Santander": Santander/index.md 
           - "Analiza mieszkań": Analiza_mieszkan/index.md
+          - "Autohandel": Samochody/index.md
       - Data science:
           - "Znajdź przyjaciół": Find_friends/index.md
           - "GPT": GPT/index.md

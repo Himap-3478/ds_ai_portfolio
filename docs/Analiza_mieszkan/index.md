@@ -44,5 +44,5 @@ Umiejętności wykorzystane w projekcie
 **Efekt:** Dashboard w Excelu umożliwiający szybką analizę rynku nieruchomości oraz wspierający proces podejmowania decyzji inwestycyjnych.
 
 Pobierz plik:
-- [Dasboard](doc/Dashboard.png)
-- [Infografika](doc/Infografika.png)
+![Dashboard](doc/Dashboard.png)
+![Infografika](doc/Infografika.png)
