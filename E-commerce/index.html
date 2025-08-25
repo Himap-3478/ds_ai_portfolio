@@ -14,10 +14,6 @@
       
       
       
-        <link rel="prev" href="../Senat/">
-      
-      
-        <link rel="next" href="../Titanic/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -25,7 +21,7 @@
     
     
       
-        <title>Wybory do Sejmu w III RP - Moje projekty</title>
+        <title>Analiza danych sprzedażowych e-commerce - Moje projekty</title>
       
     
     
@@ -75,7 +71,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#analiza-danych-wyborow-do-sejmu-iii-rp" class="md-skip">
+        <a href="#analiza-danych-sprzedazowych-e-commerce" class="md-skip">
           Skip to content
         </a>
       
@@ -111,7 +107,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Wybory do Sejmu w III RP
+              Analiza danych sprzedażowych e-commerce
             
           </span>
         </div>
@@ -250,20 +246,18 @@
       
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -279,7 +273,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Projekty
@@ -290,20 +284,18 @@
                 
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
         
           
           <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
@@ -319,7 +311,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_1">
             <span class="md-nav__icon md-icon"></span>
             Analiza danych
@@ -514,19 +506,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../Sejm/" class="md-nav__link">
         
   
   
@@ -537,7 +520,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -802,110 +784,88 @@
   
 
 
-<h1 id="analiza-danych-wyborow-do-sejmu-iii-rp">Analiza danych wyborów do Sejmu III RP</h1>
-<p>utworzone: <strong>19.05.2025</strong></p>
+<h1 id="analiza-danych-sprzedazowych-e-commerce">Analiza danych sprzedażowych e-commerce</h1>
+<p>Utworzone: <strong>23.08.2025</strong></p>
 <p>Cel projektu:</p>
-<p>Celem analizy było zbadanie, jak zmieniała się struktura polityczna Sejmu w Polsce od 1991 roku – z uwzględnieniem:</p>
-<ul>
-<li>poparcia dla partii politycznych,</li>
-<li>przydziału mandatów (w kontekście systemu wyborczego),</li>
-<li>ewolucji preferencji ideologicznych społeczeństwa.</li>
-</ul>
+<p>Celem było zrozumienie zachowań klientów, sezonowości sprzedaży oraz identyfikacja najlepiej sprzedających się produktów i kategorii w sklepie e-commerce. Analiza miała wspomóc decyzje marketingowe i sprzedażowe oraz wskazać obszary do optymalizacji.</p>
 <p>Krok po kroku:</p>
 <ul>
-<li>Zebranie i oczyszczenie danych z wyborów parlamentarnych (10 kadencji)</li>
-<li>Analiza procentowego poparcia i liczby mandatów zdobytych przez partie polityczne</li>
-<li>Przypisanie partii do kategorii ideologicznych (prawica, centroprawica, centrum, centrolewica, lewica)</li>
-<li>Ocena wpływu systemu d’Hondta na rzeczywistą reprezentację ugrupowań</li>
-<li>Wizualizacja trendów: liczby partii w Sejmie, poparcia społecznego, siły mandatowej</li>
+<li>Pozyskanie danych za pomocą <strong>zapytań SQL z Power query</strong></li>
+<li>Skopiowanie wyników do <strong>Google Sheets</strong></li>
+<li>Przesłanie danych do <strong>Looker Studio</strong></li>
+<li>Stworzenia dashboardu</li>
 </ul>
-<p>Kluczowe wnioski:</p>
-<p>Struktura Sejmu:</p>
+<p>Kluczowe wyniki:</p>
+<ol>
+<li>
+<p><strong>Sezonowość</strong> </p>
 <ul>
-<li><strong>Rekord mandatów:</strong> <em>Prawo i Sprawiedliwość</em> (2015–2023) – 235 mandatów</li>
-<li><strong>Najdłuższa obecność:</strong> <em>PSL</em> – nieprzerwanie od 10 kadencji (w tym jako część Trzeciej Drogi)</li>
-<li><strong>Największy rozrzut partyjny:</strong> <em>kadencja 1991–1993</em> – aż <strong>28 partii i komitetów wyborczych</strong></li>
-<li><strong>Największa koncentracja:</strong> <em>kadencja 2023–2027</em> – tylko 5 głównych bloków</li>
+<li>Trzy główne fale sprzedaży: luty–kwiecień, lipiec–sierpień, październik–grudzień</li>
+<li>Najlepszy miesiąc: listopad (11,4 tys. zł), najsłabsze: lipiec i wrzesień (po 6,9 tys. zł)</li>
+<li>Rekomendacja: intensyfikacja działań marketingowych przed szczytami oraz promocje w okresach spadku sprzedaży</li>
 </ul>
-<p>Trendy polityczne:</p>
+</li>
+<li>
+<p><strong>Klienci</strong></p>
 <ul>
-<li>Od 2001 roku dominacja <strong>PiS</strong> i <strong>PO/KO</strong> – tylko te dwa ugrupowania były stale obecne.</li>
-<li>Największe poparcie dla partii: <strong>PiS (2019)</strong> – 43,59%</li>
-<li>Najmniejsze: <strong>Sojusz Kobiet Przeciw Trudnościom Życia (1991)</strong> – 0,02% (!)</li>
+<li>205 klientów w bazie: 59% stali, 41% jednorazowi</li>
+<li>Rekomendacja: inwestycja w retencję i programy lojalnościowe zamiast wyłącznie pozyskiwania nowych klientów</li>
 </ul>
-<p>Zachowania ideologiczne wyborców:</p>
-<table>
-<thead>
-<tr>
-<th>Poglądy</th>
-<th>Najlepszy wynik</th>
-<th>Najgorszy wynik</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Prawica</strong></td>
-<td>38,28% (2005)</td>
-<td>4,88% (2015)</td>
-</tr>
-<tr>
-<td><strong>Centroprawica</strong></td>
-<td>59,39% (2015)</td>
-<td>21,66% (2001)</td>
-</tr>
-<tr>
-<td><strong>Centrum</strong></td>
-<td>10,45% (1991)</td>
-<td>0,19% (2011)</td>
-</tr>
-<tr>
-<td><strong>Centrolewica</strong></td>
-<td>30,69% (2023)</td>
-<td>0% (2011)</td>
-</tr>
-<tr>
-<td><strong>Lewica</strong></td>
-<td>51,34% (2001)</td>
-<td>8,72% (2023)</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Insight:</strong> Polityczne centrum w Polsce niemal zniknęło po 1997 roku. Od 2005 r. scena jest spolaryzowana: dominacja centroprawicy, a <strong>lewica notuje stały spadek</strong> z historycznego szczytu 51% do zaledwie 8,7% w 2023.</p>
-<p>Technologie i narzędzia:</p>
+</li>
+<li>
+<p><strong>Produkty i kategorie</strong></p>
 <ul>
-<li><strong>Python (pandas, seaborn, matplotlib)</strong> – analiza i wizualizacje danych</li>
-<li><strong>Excel</strong> – obróbka danych źródłowych</li>
-<li><strong>Jupyter Notebook</strong> – dokumentacja i narracja analizy</li>
+<li>Największa sprzedaż łączna: Stuff Device – 1 778 zł</li>
+<li>Najczęściej kupowany: Many Tool – 7 szt. za 1 486 zł</li>
+<li>Najbardziej dochodowe zamówienia: 450–499 zł</li>
+<li>Kategoria lider: kategoria 17 – 5 025 zł</li>
+<li>Rekomendacja: rozwój bestsellerów, cross-selling i bundling w najbardziej dochodowych segmentach</li>
 </ul>
-<p>Umiejętności pokazane w projekcie:</p>
+</li>
+<li>
+<p><strong>Rynki</strong></p>
 <ul>
-<li>Analiza danych politycznych na przestrzeni wielu lat (longitudinal data analysis)</li>
-<li>Zastosowanie klasyfikacji ideologicznej do analizy społecznej</li>
-<li>Prezentowanie złożonych danych w czytelnej formie</li>
-<li>Przekształcanie danych statystycznych w konkretne wnioski polityczne</li>
-<li>Znajomość systemu wyborczego i jego wpływu na rozkład mandatów</li>
+<li>Najwyższa średnia wartość koszyka: Australia (277 zł)</li>
+<li>Najwięcej klientów: USA (49 osób)</li>
+<li>Najniższa średnia wartość koszyka: UK (244 zł)</li>
+<li>Rekomendacja: rozwój w Australii i USA, optymalizacja oferty w UK</li>
 </ul>
-<p><a href="Sejm.ipynb" class="md-button md-button--primary">Pobierz Notebook</a></p>
-<p><iframe
-    id="content"
-    src="Sejm.html"
-    width="100%"
-    style="border:1px solid black;overflow:hidden;"
-></iframe></p>
-<script>
-function resizeIframeToFitContent(iframe) {
-    iframe.style.height = (iframe.contentWindow.document.documentElement.scrollHeight + 50) + "px";
-    iframe.contentDocument.body.style["overflow"] = 'hidden';
-}
-window.addEventListener('load', function() {
-    var iframe = document.getElementById('content');
-    resizeIframeToFitContent(iframe);
-});
-window.addEventListener('resize', function() {
-    var iframe = document.getElementById('content');
-    resizeIframeToFitContent(iframe);
-});
-</script>
+</li>
+<li>
+<p><strong>Analiza przychodów (Pareto)</strong></p>
+<ul>
+<li>31% zamówień → 50% przychodu</li>
+<li>58% zamówień → 80% przychodu</li>
+<li>Wniosek: przychody rozłożone równomiernie, mniejsze ryzyko zależności od wąskiej grupy klientów</li>
+</ul>
+</li>
+</ol>
+<p>Wnioski i rekomendacje:</p>
+<ul>
+<li>Planowanie działań marketingowych zgodnie z sezonowością</li>
+<li>Maksymalizacja zysków w segmencie 450–499 zł przez upsell i bundling</li>
+<li>Rozwój retencji klientów i programów lojalnościowych</li>
+<li>Ekspansja bestsellerów i tworzenie zestawów „best sellers”</li>
+<li>Priorytetowe rynki: Australia i USA, optymalizacja działań w UK</li>
+</ul>
+<p>Narzędzia:</p>
+<ul>
+<li><strong>Looker Studio</strong> - wizualizacja danych i raportowanie</li>
+<li><strong>Google Big Query</strong> - przechowywanie danych</li>
+<li><strong>Google Sheets</strong> - wyniki z zapytań</li>
+</ul>
+<p>Umiejętności:</p>
+<ul>
+<li>Zapytania SQL</li>
+<li>Tworzenie dashboardu</li>
+<li>Analiza i storytelling o danych</li>
+<li>Obsługa narzędzi Google</li>
+<li>Segmentacja klientów i analiza częstotliwości zamówień</li>
+<li>Analiza koszyka zakupowego, wartości zamówień i najlepiej sprzedających się produktów</li>
+<li>Analiza geograficzna pod kątem wartości koszyka i liczby klientów</li>
+</ul>
+<p><strong>Efekt</strong> Wskazanie najbardziej dochodowych produktów, segmentów klientów i rynków, a także opracowanie konkretnych rekomendacji marketingowych i sprzedażowych wspierających wzrost przychodów i retencję klientów.</p>
+<p><img alt="Dashboard" src="image/e-c.png" /></p>
 
 
 
