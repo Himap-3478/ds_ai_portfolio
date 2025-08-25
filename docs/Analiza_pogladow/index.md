@@ -8,9 +8,9 @@ Cel projektu:
 Celem było zbadanie zmian w zachowaniach wyborczych Polaków na przestrzeni ponad 30 lat – z uwzględnieniem wyników **wyborów parlamentarnych, prezydenckich i do Parlamentu Europejskiego** – oraz identyfikacja długofalowych **trendów politycznych i przesunięć ideologicznych**.
 
 
-Zakres analizy:
+Krok po kroku
 
-* Zebranie i uporządkowanie danych wyborczych z oficjalnych źródeł (PKW, GUS, PE)
+* Zebranie i uporządkowanie danych wyborczych z oficjalnych źródeł
 * Analiza poparcia dla partii politycznych w podziale na lata, typy wyborów oraz partie
 * Porównanie wyników wyborów parlamentarnych i prezydenckich w tych samych latach
 * Opracowanie interaktywnych dashboardów z trendami poparcia

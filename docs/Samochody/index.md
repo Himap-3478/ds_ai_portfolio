@@ -8,7 +8,7 @@ Cel projektu:
 Stworzenie interaktywnego raportu w Power BI, który pokazuje sprzedaż samochodów w czasie oraz zależności między marką, ceną, kolorem i przebiegiem.
 
 
-Zakres prac
+Krok po kroku:
 
 * Wygenerowanie fikcyjnych danych
 * Oczyszczenie i przygotowanie danych w Power BI

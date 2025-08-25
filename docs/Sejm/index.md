@@ -11,7 +11,7 @@ Celem analizy było zbadanie, jak zmieniała się struktura polityczna Sejmu w P
 * ewolucji preferencji ideologicznych społeczeństwa.
 
 
-Zakres analizy:
+Krok po kroku:
 
 * Zebranie i oczyszczenie danych z wyborów parlamentarnych (10 kadencji)
 * Analiza procentowego poparcia i liczby mandatów zdobytych przez partie polityczne

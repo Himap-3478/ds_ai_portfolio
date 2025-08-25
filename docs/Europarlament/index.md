@@ -13,7 +13,7 @@ Celem analizy było zbadanie ewolucji polskiej sceny politycznej w kontekście w
 * wpływu systemu wyborczego na reprezentację partii.
 
 
-Zakres analizy:
+Krok po kroku
 
 * Zebranie danych z lat 2004–2024 (wszystkie wybory PE po przystąpieniu Polski do UE)
 * Przypisanie partii do bloków ideologicznych: prawica, centroprawica, centrum, centrolewica, lewica

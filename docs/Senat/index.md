@@ -12,7 +12,7 @@ Projekt miał na celu analizę danych z wyborów do Senatu RP z ostatnich 30 lat
 * jak odpowiadały wyniki wyborów preferencjom ideologicznym Polaków.
 
 
-Zakres analizy:
+Krok po kroku:
 
 * Zebranie i standaryzacja danych z wyborów do Senatu z lat 1991–2023
 * Przypisanie partii do kategorii ideologicznych (prawica, centroprawica, centrum, centrolewica, lewica)

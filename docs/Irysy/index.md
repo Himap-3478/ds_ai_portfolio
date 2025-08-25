@@ -8,7 +8,7 @@ Utworzone: **25.01.2025**
 Celem projektu była eksploracja klasycznego zbioru danych **Iris**, obejmującego trzy gatunki kwiatów: *Setosa*, *Versicolor* i *Virginica*. Analiza miała na celu odkrycie zależności między zmiennymi (cechami fizycznymi) kwiatów oraz zrozumienie różnic pomiędzy gatunkami.
 
 
-Zakres analizy:
+Krok po kroku
 
 * Wczytanie i wstępne oczyszczenie danych
 * Analiza rozkładów zmiennych: długości i szerokości kielicha oraz płatka

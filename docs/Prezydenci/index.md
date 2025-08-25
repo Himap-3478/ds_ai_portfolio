@@ -4,6 +4,7 @@ utworzone: **02.06.2025**
 
 
 Cel projektu:
+
 Celem analizy było zrozumienie zmieniających się preferencji wyborców w wyborach prezydenckich w Polsce, ze szczególnym uwzględnieniem:
 
 * wyników procentowych kandydatów w I i II turze,
@@ -11,7 +12,7 @@ Celem analizy było zrozumienie zmieniających się preferencji wyborców w wybo
 * długofalowych trendów poparcia dla różnych stron sceny politycznej.
 
 
-Zakres analizy:
+Krok po kroku:
 
 * Porównanie wyników głosowania w I i II turze na przestrzeni 30 lat
 * Analiza cech kandydatów: wykształcenie, przynależność partyjna, poglądy polityczne

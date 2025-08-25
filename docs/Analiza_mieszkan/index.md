@@ -3,12 +3,12 @@
 Utworzone: **08.08.2025**
 
 
-Cel projektu
+Cel projektu:
 
 Opracowanie analizy cen nieruchomości w czterech fikcyjnych dzielnicach oraz zbadanie wpływu udogodnień (winda, garaż), odległości od centrum i kosztów utrzymania na wartość mieszkań. Wyniki zaprezentowane w formie dashboardu w Excelu.
 
 
-Zakres prac
+Krok po kroku:
 
 * Import i wstępne przygotowanie materiału w MS Excel
 * Czyszczenie i filtrowanie zestawu informacji
@@ -17,7 +17,7 @@ Zakres prac
 * Projekt i budowa dashboardu
 
 
-Kluczowe wnioski
+Kluczowe wnioski:
 
 1. **Ceny a lokalizacja** – najwyższe średnie ceny w Dzielnicy A (**456 653 zł**), najniższe w Dzielnicy C (**407 470 zł**).
 2. **Udogodnienia** – Dzielnica C liderem w liczbie mieszkań z windą i garażem (9 ofert).
@@ -26,12 +26,12 @@ Kluczowe wnioski
 5. **Struktura rynku** – dominują studio (37 ofert), najmniej jest apartamentów (31 ofert).
 
 
-Narzędzia
+Narzędzia:
 
 * **MS Excel** – obliczenia, funkcje, dashboard
 
 
-Umiejętności wykorzystane w projekcie
+Umiejętności wykorzystane w projekcie:
 
 * Analiza i interpretacja informacji liczbowych
 * Tworzenie dashboardów w Excelu
