@@ -8,5 +8,5 @@ Codziennie poświęcam 2 godziny na pracę z danymi – od eksploracji, przez wi
 Do tej pory zrealizowałem 16 autorskich projektów opartych na danych, które znajdziesz poniżej.
 W pracy stawiam na rzetelność analityczną, przejrzystość prezentacji i wartość biznesową wyników.
 
-Do tej pory zrealizowałem już **11 projektów** z zakresu **Analizy danych** oraz **5 projektów** z zakresu **Data science**, które znajdziesz w moim portfolio.
+Do tej pory zrealizowałem już **14 projektów** z zakresu **Analizy danych** oraz **5 projektów** z zakresu **Data science**, które znajdziesz w moim portfolio.
 
