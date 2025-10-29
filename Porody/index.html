@@ -14,10 +14,10 @@
       
       
       
-        <link rel="prev" href="../Europarlament/">
+        <link rel="prev" href="..">
       
       
-        <link rel="next" href="../Sejm/">
+        <link rel="next" href="../Fryzjer/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -25,7 +25,7 @@
     
     
       
-        <title>Wybory do Senatu w III RP - Moje projekty</title>
+        <title>Porody - Moje projekty</title>
       
     
     
@@ -75,7 +75,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#analiza-danych-wyborow-do-senatu-iii-rp" class="md-skip">
+        <a href="#ilosc-urodzen-zywych-w-polsce-wg-wieku-matki" class="md-skip">
           Skip to content
         </a>
       
@@ -111,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Wybory do Senatu w III RP
+              Porody
             
           </span>
         </div>
@@ -330,10 +330,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../Porody/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -344,6 +353,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -560,19 +570,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../Senat/" class="md-nav__link">
         
   
   
@@ -583,7 +584,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -871,120 +871,54 @@
   
 
 
-<h1 id="analiza-danych-wyborow-do-senatu-iii-rp">Analiza danych wyborów do Senatu III RP</h1>
-<p>utworzone: <strong>22.05.2025</strong></p>
+<h1 id="ilosc-urodzen-zywych-w-polsce-wg-wieku-matki">Ilość urodzeń żywych w Polsce wg wieku matki</h1>
+<p>Utworzone: <strong>06.10.2025</strong></p>
 <p>Cel projektu:</p>
-<p>Projekt miał na celu analizę danych z wyborów do Senatu RP z ostatnich 30 lat, by zrozumieć:</p>
-<ul>
-<li>jak zmieniało się poparcie społeczne dla partii politycznych,</li>
-<li>jak system większościowy wpływał na rozkład mandatów,</li>
-<li>jak odpowiadały wyniki wyborów preferencjom ideologicznym Polaków.</li>
-</ul>
+<p>Analiza danych Głównego Urzędu Statystycznego (GUS) dotyczących ilości urodzeń według wieku matki w latach 2002-2024</p>
 <p>Krok po kroku:</p>
 <ul>
-<li>Zebranie i standaryzacja danych z wyborów do Senatu z lat 1991–2023</li>
-<li>Przypisanie partii do kategorii ideologicznych (prawica, centroprawica, centrum, centrolewica, lewica)</li>
-<li>Porównanie udziału głosów i mandatów partii w każdej kadencji</li>
-<li>Analiza wpływu systemu wyborczego (większościowego) na reprezentację mniejszych ugrupowań</li>
-<li>Wyodrębnienie trendów dotyczących dominacji politycznej i polaryzacji sceny senackiej</li>
+<li>Pobranie danych z GUS</li>
+<li>Oczyszczenie i przygotowanie tych danych w Excelu</li>
+<li>Przesłanie danych do Power BI</li>
+<li>Poprawienie danych w Power Query</li>
+<li>Stworzenie dashboardu</li>
 </ul>
-<p>Wnioski</p>
-<p>Struktura i udział partii:</p>
+<p>Kluczowe wnioski:
+1. <strong>Najwięcej porodów</strong>: 2009 – 417 589
+2. <strong>Najmniej porodów</strong>: 2004 – 251 782
+3. <strong>Tendencja</strong>: Od 2017 roku liczba porodów bardzo szybko spada
+4. <strong>Rozkład porodów</strong>: Liczba kobiet rodzących rośnie do 28 roku życia, a potem stopniowo maleje.
+5. <strong>Ciąże dzieci</strong>:
+    - ≤12 lat: 12 przypadków
+    - 13 lat: 103 przypadki
+    - Łącznie żywych urodzeń z ciąż dziecięcych: 6 065
+    - Plusem jest to, że liczba porodów dziewcząt poniżej 15 roku życia spada od 2009 roku
+6. <strong>Porody lobiet 45+</strong>: rośnie od 2016 roku
+7. <strong>Najwięcej porodów wg wieku</strong>: kobiety w wieku 25–31 lat
+8. <strong>Najwięcej porodów wg wojewódzctwa</strong>: woj. mazowieckie – 1 252 651; <strong>najmniej porodów</strong>: woj. opolskie – 189 023</p>
+<p>Narzędzia:</p>
 <ul>
-<li><strong>Rekordzistą startów do Senatu</strong> jest <em>Mniejszość Niemiecka</em> – 10 razy.</li>
-<li>
-<p>Najwięcej partii o poglądach:</p>
-</li>
-<li>
-<p><strong>Centroprawicowych</strong> – 56 ugrupowań</p>
-</li>
-<li><strong>Centrowych</strong> – 42</li>
-<li><strong>Prawicowych</strong> – 41</li>
+<li><strong>MS Excel</strong> – czyszczenie danych</li>
+<li><strong>Power Query</strong> - poprawianie danych</li>
+<li><strong>Power BI</strong> - dashboard</li>
 </ul>
-<p>Mandaty i dominacja polityczna:</p>
+<p>Umiejętności wykorzystane w projekcie:</p>
 <ul>
-<li><strong>Rekord mandatów</strong>: <em>SLD-UP (2001–2005)</em> – 75 mandatów.</li>
-<li>Najdłuższa obecność: <em>Polskie Stronnictwo Ludowe</em> – 8 kadencji.</li>
-<li>Od 2001 roku: <strong>PO i PiS nieprzerwanie obecne w Senacie.</strong></li>
+<li>Praca z ogólnodostepnymi danymi</li>
+<li>Analiza i interpretacja informacji liczbowych</li>
+<li>Tworzenie dashboardów w Power BI</li>
+<li>Czyszczenie i organizacja materiału analitycznego</li>
+<li>Prezentacja wyników w formie czytelnego raportu</li>
+<li>Wyciąganie wniosków biznesowych z analiz</li>
 </ul>
-<p>Zmienność polityczna:</p>
-<ul>
-<li><strong>Najwięcej partii w Senacie</strong>: kadencja 1991–1993 (28 partii/komitetów)</li>
-<li><strong>Najmniej</strong>: kadencja 2007–2011 (tylko 3 ugrupowania)</li>
-<li>Od 2007 do 2023 scena senacka <strong>zdominowana przez PO i PiS</strong></li>
-</ul>
-<p>Preferencje ideologiczne społeczeństwa:</p>
-<table>
-<thead>
-<tr>
-<th>Poglądy</th>
-<th>Najlepszy wynik</th>
-<th>Najgorszy wynik</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Prawica</strong></td>
-<td>17,02% (1991)</td>
-<td>0,93% (2007)</td>
-</tr>
-<tr>
-<td><strong>Centroprawica</strong></td>
-<td>81,87% (2007)</td>
-<td>15,71% (2001)</td>
-</tr>
-<tr>
-<td><strong>Centrum</strong></td>
-<td>27,64% (2001)</td>
-<td>0,33% (2007)</td>
-</tr>
-<tr>
-<td><strong>Centrolewica</strong></td>
-<td>39,53% (2019)</td>
-<td>0% (2001, 2007)</td>
-</tr>
-<tr>
-<td><strong>Lewica</strong></td>
-<td>49,65% (2001)</td>
-<td>2,46% (2019)</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Insight:</strong> System większościowy faworyzuje silne bloki partyjne – od 2007 roku mniejsze partie niemal całkowicie zniknęły z Senatu. Lewica, mimo historycznie wysokich wyników (2001), <strong>zanikła po 2011 roku</strong>. Centroprawica miała rekordowe poparcie (81%) w 2007 r., ale jej siła w Senacie ulega fluktuacji.</p>
-<p>Technologie i narzędzia:</p>
-<ul>
-<li><strong>Python (pandas, matplotlib, seaborn)</strong> – analiza danych, wykresy</li>
-<li><strong>Jupyter Notebook</strong> – narracja i prezentacja analizy</li>
-<li><strong>Excel</strong> – standaryzacja danych wejściowych</li>
-</ul>
-<p>Umiejętności zaprezentowane:</p>
-<ul>
-<li>Praca z danymi historycznymi i klasyfikacją ideologiczną</li>
-<li>Identyfikacja trendów w systemie większościowym (vs proporcjonalnym)</li>
-<li>Tworzenie syntetycznych wizualizacji wyników politycznych</li>
-<li>Porównawcza analiza wyborcza z elementami socjologicznymi i politologicznymi</li>
-</ul>
-<p><a href="Senat.ipynb" class="md-button md-button--primary">Pobierz Notebook</a></p>
-<p><iframe
-    id="content"
-    src="Senat.html"
-    width="100%"
-    style="border:1px solid black;overflow:hidden;"
-></iframe></p>
-<script>
-function resizeIframeToFitContent(iframe) {
-    iframe.style.height = (iframe.contentWindow.document.documentElement.scrollHeight + 50) + "px";
-    iframe.contentDocument.body.style["overflow"] = 'hidden';
-}
-window.addEventListener('load', function() {
-    var iframe = document.getElementById('content');
-    resizeIframeToFitContent(iframe);
-});
-window.addEventListener('resize', function() {
-    var iframe = document.getElementById('content');
-    resizeIframeToFitContent(iframe);
-});
-</script>
+<p><strong>Podsumowując:</strong><br />
+1. <strong>Wiek rodzących</strong>: Trend przesunięcia wieku rodzących ku starszym grupom pokazuje rosnące znaczenie edukacji zawodowej i planowania rodziny.
+2. <strong>Ciąże dziecięce</strong>: Spadek ciąż wśród dziewcząt poniżej 15 lat wskazuje na skuteczność działań profilaktycznych, choć problem wciąż istnieje.
+3. <strong>Wyzwania</strong>:Wzrost ciąż kobiet powyżej 45 roku życia stawia wyzwania dla systemu opieki zdrowotnej i polityki prorodzinnej.
+4. <strong>Programy socjalne</strong>: Nieskuteczność programu 500+/800+</p>
+<p><img alt="Dashboard" src="doc/Porody.png" />
+<img alt="Dashboard" src="doc/Dzieci.png" />
+<img alt="Dashboard" src="doc/45%2B.png" /></p>
 
 
 
