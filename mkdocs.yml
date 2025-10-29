@@ -15,7 +15,10 @@ nav:
   - Strona Domowa: index.md
   - Projekty:
       - Analiza danych:
-          - "Analiza danych ze sklepu e-commerce": e-commerce/index.md
+          - "Porody": Porody/index.md
+          - "Fryzjer": Fryzjer/index.md
+          - "Analiza ruchu turystów w Polsce": Turystyka/index.md
+          - "Analiza danych ze sklepu e-commerce": E-commerce/index.md
           - "Autohandel": Samochody/index.md
           - "Analiza mieszkań": Analiza_mieszkan/index.md
           - "Analiza danych z kursu Santander": Santander/index.md
